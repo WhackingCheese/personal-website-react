@@ -1,0 +1,37 @@
+{
+    "references": [
+        {
+            "name": "Björn Margeirsson",
+            "position": {
+                "is": "Rannsóknarstjóri",
+                "en": "Research Manager"
+            },
+            "company": "Sæplast Iceland",
+            "phoneNr": "898-4901",
+            "email": "bjorn.margeirsson@saeplast.com"
+        },
+        {
+            "name": "Gabríel Daði Vignisson",
+            "position": {
+                "is": "Fjármála og Rekstrarstjóri",
+                "en": "Finance and Operations Manager"
+            },
+            "company": "Íslenska Flatbakan",
+            "phoneNr": "659-1815",
+            "email": "gabriel@flatbakan.is"
+        },
+        {
+            "name": "Örvar Þorri Rafnsson",
+            "position": {
+                "is": "Neyðarvarnarfulltrúi og Umsjónarmaður Sóttkvíarhótelsins Þórunartúni",
+                "en": "Senior Emergency Response Officer and Quarantine Hotel Manager at Þórunartún"
+            },
+            "company": {
+                "is": "Rauði Kross Íslands",
+                "en": "Icelandic Red Cross"
+            },
+            "phoneNr": "888-3070",
+            "email": "orvarthorri@redcross.is"
+        }
+    ]
+}
