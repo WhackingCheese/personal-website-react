@@ -8,15 +8,6 @@ import {
 } from './Header.styles';
 
 function Header() {
-  /*
-  window.onscroll = () => {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-      document.getElementsByTagName('header')[0].style.height = '80px;';
-    } else {
-      document.getElementsByTagName('header')[0].style.height = '120px';
-    }
-  }
-  */
   return (
     <Nav>
       <NavLink to='/'>
@@ -38,9 +29,6 @@ function Header() {
         </NavLink>
       </NavMenu>
       <NavMenu>
-        <Link to='#'>
-          ENG
-        </Link>
         <Link to='#'>
           ISL
         </Link>

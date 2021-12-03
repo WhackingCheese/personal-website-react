@@ -1,4 +1,5 @@
 import Header from './Header/Header';
 import Follower from './Follower/Follower';
+import GlobalStyles from './GlobalStyles/GlobalStyles.styles';
 
-export { Header, Follower };
+export { Header, Follower, GlobalStyles };
