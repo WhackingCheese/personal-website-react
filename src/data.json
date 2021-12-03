@@ -1,0 +1,46 @@
+{
+  "experience": [
+    {
+      "company": "Sæplast",
+      "title": "Data Analysis - Summer Intern",
+      "description": "Designed, implemented and deployed a system used to write and analyse production sample data for Sæplast's manufacturing plant in Dalvík.",
+      "time": [ 2021 ],
+      "img": "../img/experience/saeplast.png"
+    },
+    {
+      "company": "Icelandic Red Cross",
+      "title": "General Quarantine Hotel Employee",
+      "description": "Provided care and basic services to individuals in quarantine and isolation at multiple Red Cross run quarantine hotels.",
+      "time": [ 2021 ],
+      "img": "../img/experience/redcross.png"
+    },
+    {
+      "company": "Íslenska Flatbakan",
+      "title": "Pizzabaker, Waiter & Cashier",
+      "description": "Performed almost all possible tasks; everything from waiting tables, servicing customers and baking pizzas to prepping and cleaning.",
+      "time": [ 2019, 2021 ],
+      "img": "../img/experience/flatbakan.png"
+    },
+    {
+      "company": "Kópavogur Municipality",
+      "title": "Work School Team Leader",
+      "description": "Was a primary substitute team leader, took over other team leader's groups when they got sick or went on holiday. While few or no team leaders were unavailable I worked on other projects for the municipality.",
+      "time": [ 2019 ],
+      "img": "../img/experience/kopavogur.png"
+    },
+    {
+      "company": "Melabúðin",
+      "title": "General Employee",
+      "description": "Threw myself at all the tasks that needed solving; from refills in the shop, servicing customers at the register and the butcher counter to preparing hot foods.",
+      "time": [ 2019 ],
+      "img": "../img/experience/melabudin.png"
+    },
+    {
+      "company": "Vestfiskur",
+      "title": "Factory Labourer",
+      "description": "Worked on manufacturing high-quality dried fish products. Was involved in the entire process; from the receipt of raw materials and products, through production to packaging and preparation of shipments.",
+      "time": [ 2015, 2018 ],
+      "img": "../img/experience/vestfiskur.png"
+    }
+  ]
+}
