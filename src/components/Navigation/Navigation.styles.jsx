@@ -2,13 +2,15 @@ import styled from "styled-components";
 
 import { NavLink as Link } from 'react-router-dom';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import { BsMoon, BsSun } from 'react-icons/bs';
+import { BsMoonStars, BsSun } from 'react-icons/bs';
 import { ReactComponent } from '../../Assets/Images/Branding/logo-transparent.svg';
 
 export const Nav = styled.header`
+  background-color: ${(props) => props.theme.background};
   height: 80px;
   display: flex;
   justify-content: space-between;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.14);
   
   @media screen and (min-width: 1024px) {
     padding: 0 calc((100% - 1024px) / 4);
@@ -134,7 +136,7 @@ export const IconDark = styled(BsSun)`
   width: 21px;
 `;
 
-export const IconLight = styled(BsMoon)`
+export const IconLight = styled(BsMoonStars)`
   height: 21px;
   width: 21px;
 `;
