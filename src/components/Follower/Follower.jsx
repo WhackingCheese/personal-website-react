@@ -27,9 +27,7 @@ function Follower() {
   });
 
   return (
-    <>
-      <FollowerStyles id='Follower' />
-    </>
+    <FollowerStyles id='Follower' />
   );
 }
 

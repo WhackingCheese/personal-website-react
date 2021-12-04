@@ -1,23 +1,24 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
-import { Header, Follower, GlobalStyles } from './components';
+import { Follower, GlobalStyles, Navigation, LanguageManager, ThemeManager } from './components';
 import { About, Index, Portfolio, Resume } from './pages';
 
 function App() {
   return (
-    <>
-      <GlobalStyles/>
-      <Follower/>
-      <BrowserRouter>
-        <Header/>
-        <Routes>
-          <Route path='/' element={<Index/>}/>
-          <Route path='/about' element={<About/>}/>
-          <Route path='/portfolio' element={<Portfolio/>}/>
-          <Route path='/resume' element={<Resume/>}/>
-        </Routes>
-      </BrowserRouter>
-    </>
+    <LanguageManager>
+      <ThemeManager>
+        <GlobalStyles/>
+        <Follower/>
+        <BrowserRouter>
+          <Navigation/>
+          <Routes>
+            <Route path='/' element={<Index/>}/>
+            <Route path='/about' element={<About/>}/>
+            <Route path='/portfolio' element={<Portfolio/>}/>
+            <Route path='/resume' element={<Resume/>}/>
+          </Routes>
+        </BrowserRouter>
+      </ThemeManager>
+    </LanguageManager>
   );
 }
 

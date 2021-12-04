@@ -5,7 +5,7 @@ export const FollowerStyles = styled.div`
   width: 32px;
   height: 32px;
   margin: -16px 0px 0px -16px;
-  border: 1px solid #3E4455;
+  border: 1px solid ${(props) => props.theme.primary};
   border-radius: 50%;
   pointer-events: none !important;
 
