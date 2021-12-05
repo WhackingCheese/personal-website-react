@@ -1,5 +1,12 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Follower, GlobalStyles, Navigation, LanguageManager, ThemeManager } from './components';
+import {
+  Follower,
+  GlobalStyles,
+  Navigation,
+  LanguageManager,
+  ThemeManager,
+  PageContainer
+} from './components';
 import { About, Index, Portfolio, Resume } from './pages';
 
 function App() {
@@ -10,12 +17,14 @@ function App() {
         <Follower/>
         <BrowserRouter>
           <Navigation/>
-          <Routes>
-            <Route path='/' element={<Index/>}/>
-            <Route path='/about' element={<About/>}/>
-            <Route path='/portfolio' element={<Portfolio/>}/>
-            <Route path='/resume' element={<Resume/>}/>
-          </Routes>
+          <PageContainer>
+            <Routes>
+              <Route path='/' element={<Index/>}/>
+              <Route path='/about' element={<About/>}/>
+              <Route path='/portfolio' element={<Portfolio/>}/>
+              <Route path='/resume' element={<Resume/>}/>
+            </Routes>
+          </PageContainer>
         </BrowserRouter>
       </ThemeManager>
     </LanguageManager>

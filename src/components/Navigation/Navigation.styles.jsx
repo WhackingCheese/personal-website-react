@@ -6,11 +6,11 @@ import { BsMoonStars, BsSun } from 'react-icons/bs';
 import { ReactComponent } from '../../Assets/Images/Branding/logo-transparent.svg';
 
 export const Nav = styled.header`
-  background-color: ${(props) => props.theme.background};
+  background-color: ${(props) => props.theme.bg_secondary};
   height: 80px;
   display: flex;
   justify-content: space-between;
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.14);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.5);
   
   @media screen and (min-width: 1024px) {
     padding: 0 calc((100% - 1024px) / 4);
@@ -75,8 +75,8 @@ export const SidebarContainer = styled.aside`
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: ${(props) => props.theme.background};
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.14);
+  background-color: ${(props) => props.theme.bg_secondary};
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -132,11 +132,13 @@ export const SidebarLink = styled(Link)`
 `;
 
 export const IconDark = styled(BsSun)`
+  margin-top: 3px;
   height: 21px;
   width: 21px;
 `;
 
 export const IconLight = styled(BsMoonStars)`
+  margin-top: 3px;
   height: 21px;
   width: 21px;
 `;

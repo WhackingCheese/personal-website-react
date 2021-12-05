@@ -1,13 +1,15 @@
 const themeLight = {
   'primary': '#3E4455',
   'accent': '#FF023E',
-  'background': '#FFFFFF'
+  'bg_primary': '#FFFFFF',
+  'bg_secondary': '#e0dcd7'
 };
 
 const themeDark = {
   'primary': '#FFFFFF',
   'accent': '#FF023E',
-  'background': '#3E4455'
+  'bg_primary': '#3E4455',
+  'bg_secondary': '#333333'
 };
 
 const themes = {

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const FollowerStyles = styled.div`
-  position: fixed;
+  position: absolute;
   width: 32px;
   height: 32px;
   margin: -16px 0px 0px -16px;
