@@ -1,0 +1,32 @@
+{
+  "routes": [
+    {
+      "name": {
+        "en": "Home",
+        "is": "Heim"
+      },
+      "route": "/"
+    },
+    {
+      "name": {
+        "en": "About",
+        "is": "Um"
+      },
+      "route": "/about"
+    },
+    {
+      "name": {
+        "en": "Portfolio",
+        "is": "Verkefni"
+      },
+      "route": "/portfolio"
+    },
+    {
+      "name": {
+        "en": "Resume",
+        "is": "Ferilskrá"
+      },
+      "route": "/resume"
+    }
+  ]
+}

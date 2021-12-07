@@ -19,7 +19,7 @@ function Follower() {
       requestAnimationFrame(delayMouseFollow);
       revisedMousePosX += (mousePosX - revisedMousePosX) / delay;
       revisedMousePosY += (mousePosY - revisedMousePosY) / delay;
-      mouseCircle.style.top = revisedMousePosY + "px";
+      mouseCircle.style.top = (revisedMousePosY - window.scrollY) + "px";
       mouseCircle.style.left = revisedMousePosX + "px";
     }
 

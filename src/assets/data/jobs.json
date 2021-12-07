@@ -1,0 +1,92 @@
+{
+  "jobsTitle": {
+    "en": "Job Experience",
+    "is": "Starfsreynsla"
+  },
+  "jobs": [
+    {
+      "company": "Sæplast Iceland",
+      "title": {
+        "en": "Data Analysis - Summer Intern",
+        "is": "Gagnagreining - Sumarstarf"
+      },
+      "description": {
+        "en": "Designed, implemented and deployed a system used to log and analyse random production sample data for Sæplast's manufacturing plant in Dalvík.",
+        "is": "Hannaði, innleiddi og setti upp kerfi notað til að skrá og greina gögn um tilviljunarkennd framleiðslusýni fyrir verksmiðju Sæplasts á Dalvík."
+      },
+      "time": [ 2021 ],
+      "img": "/images/saeplast.png"
+    },
+    {
+      "company": {
+        "en": "Icelandic Red Cross",
+        "is": "Rauði Kross Íslands"
+      },
+      "title": {
+        "en": "General Quarantine Hotel Employee",
+        "is": "Almennur Starfsmaður á Farsóttarhúsi"
+      },
+      "description": {
+        "en": "Provided care and services to individuals in quarantine and isolation in quarantine hotels who couldn't safely quarantine or isolate themselves at their place of residence and those without permanent residence in the country.",
+        "is": "Sinnti einstaklingum í sóttkví og einangrun á farsóttarhúsum sem gátu ekki sinnt sóttkví eða einangrun í sínu heimahúsi og þeim sem áttu ekki fasta búsetu á landinu."
+      },
+      "time": [ 2021 ],
+      "img": "/images/redcross.png"
+    },
+    {
+      "company": "Íslenska Flatbakan",
+      "title": {
+        "en": "Pizzabaker, Waiter & Cashier",
+        "is": "Pizzubakari, Þjónn & Afgreiðslumaður"
+      },
+      "description": {
+        "en": "Performed almost all possible tasks; everything from waiting tables, servicing customers and baking pizzas to prepping and cleaning.",
+        "is": "Sinnti nær öllum mögulegum hlutverkfum á staðnum; allt frá því að þjóna til borðs, afgreiðslu og pizzabaksturs til undirbúnings og þrifs."
+      },
+      "time": [ 2019, 2021 ],
+      "img": "/images/flatbakan.png"
+    },
+    {
+      "company": {
+        "en": "Kópavogur Municipality",
+        "is": "Kópavogsbær"
+      },
+      "title": {
+        "en": "Work School Team Leader",
+        "is": "Flokkstjóri Vinnuskólans"
+      },
+      "description": {
+        "en": "Was primarily a substitute team leader, took over other team leader's groups when they got sick or went on holiday. While few or no team leaders were unavailable I worked on other projects for the municipality.",
+        "is": "Vann aðallega í afleysingum og greip því í þegar aðrir flokkstjórar veiktust eða fóru í frí og tók yfir hópunum þeirra. Meðan vantaði fáa eða enga flokkstjóra sinnti ég í öðrum verkefnum fyrir bæjarfélagið."
+      },
+      "time": [ 2019 ],
+      "img": "/images/kopavogur.png"
+    },
+    {
+      "company": "Melabúðin",
+      "title": {
+        "en": "General Employee",
+        "is": "Almennur Starfsmaður"
+      },
+      "description": {
+        "en": "Threw myself at all the tasks that needed solving; from refills in the shop, servicing customers at the register and the butcher counter to preparing hot foods.",
+        "is": "Henti mér í öll þau verkefni sem þurfti að leysa; frá áfyllingum í búðinni, afgreiðslu viðskiptavina á kassa og á kjötborðinu til undirbúnings heitra matvæla."
+      },
+      "time": [ 2019 ],
+      "img": "/images/melabudin.png"
+    },
+    {
+      "company": "Vestfiskur",
+      "title": {
+        "en": "Factory Labourer",
+        "is": "Starfsmaður í Framleiðslu"
+      },
+      "description": {
+        "en": "Worked on manufacturing high-quality dried fish products. Was involved in the entire process; from the receipt of raw materials and products, through production to packaging and preparation of shipments.",
+        "is": "Vann í framleiðslu hágæða harðfisks. Starfaði við allt ferlið; frá móttöku hráefna og vara, í gegnum alla framleiðslu til pökkunar og undirbúningu sendinga."
+      },
+      "time": [ 2015, 2018 ],
+      "img": "/images/vestfiskur.png"
+    }
+  ]
+}

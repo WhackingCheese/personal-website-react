@@ -17,7 +17,7 @@ import {
 function Navigation(props) {
 
   const [ isOpen, setIsOpen ] = useState(false);
-  const [ lang, changeLang ] = useContext(LanguageContext);
+  const [ t, data, lang, changeLang ] = useContext(LanguageContext);
   const [ theme, changeTheme ] = useContext(ThemeContext);
 
   function toggleIsOpen() {
@@ -29,23 +29,18 @@ function Navigation(props) {
   return (
     <>
       <Nav>
-        <NavLink to='/'>
-          <WebsiteLogo />
+        <NavLink to='/' posleft='true'>
+          <WebsiteLogo/>
         </NavLink>
         <Burger onClick={toggleIsOpen}/>
         <NavMenu>
-          <NavLink to='/'>
-            Home
-          </NavLink>
-          <NavLink to='/about'>
-            About
-          </NavLink>
-          <NavLink to='/portfolio'>
-            Portfolio
-          </NavLink>
-          <NavLink to='/resume'>
-            Resume
-          </NavLink>
+          {data.routes.map((route, i) => {
+            return (
+              <NavLink to={route.route} key={i}>
+                {t(route.name)}
+              </NavLink>
+            );
+          })}
         </NavMenu>
         <NavMenu>
           <NavLink to='#' onClick={changeLang} noactive='true'>
@@ -56,21 +51,16 @@ function Navigation(props) {
           </NavLink>
         </NavMenu>
       </Nav>
-      <SidebarContainer isOpen={isOpen} onClick={toggleIsOpen}>
+      <SidebarContainer isOpen={isOpen}>
         <CloseIcon onClick={toggleIsOpen}/>
         <SidebarMenu>
-          <SidebarLink to='/'>
-            Home
-          </SidebarLink>
-          <SidebarLink to='/about'>
-            About
-          </SidebarLink>
-          <SidebarLink to='/portfolio'>
-            Portfolio
-          </SidebarLink>
-          <SidebarLink to='/resume'>
-            Resume
-          </SidebarLink>
+          {data.routes.map((route, i) => {
+            return (
+              <SidebarLink to={route.route} onClick={toggleIsOpen} key={i}>
+                {t(route.name)}
+              </SidebarLink>
+            );
+          })}
         </SidebarMenu>
         <SidebarMenu margin={true}>
           <SidebarLink to='#' onClick={changeLang} noactive='true'>

@@ -1,4 +1,8 @@
 {
+  "educationTitle": {
+    "en": "Education",
+    "is": "Menntun"
+  },
   "education": [
     {
       "school": {
@@ -10,11 +14,11 @@
         "is": "Tölvunarfræði BS"
       },
       "description": {
-        "en": "Currently working towards a Computer Science degree at the University of Iceland. At this moment I've completed 170 ECTS units with a first class grade and have 10 units left for the next semester. Expected to graduate in autumn 2021.",
-        "is": "Eins og er er ég að vinna að Tölvunarfræði gráðu við Háskóla Íslands. Hingað til hef ég lokið 170 ECTS einingum með fyrstu einkunn og á 10 einingar eftir fyrir næstu önn. Áætluð útskrift er haustið 2021."
+        "en": "Studying Computer Science at the University of Iceland. At this moment I've completed 170 ECTS units with a first class grade. Expected to finish my last units before the end of 2021 and graduate in February of 2022.",
+        "is": "Stunda nám í Tölvunarfræði við Háskóla Íslands. Á þessari stundu hef ég lokið 170 ECTS einingum með fyrstu einkunn. Áætla að klára síðustu einingar fyrir árslok 2021 og að útskrifast í Febrúar 2022."
       },
       "time": [2018, 2021],
-      "img": "../img/education/hi.png"
+      "img": "/images/hi.png"
     },
     {
       "school": {
@@ -30,7 +34,7 @@
         "is": "Var á Náttúrufræðibraut í Mennstakólanum á Ísafirði. Var í fyrsta árgangnum til að ganga í gegnum þriggja ára kerfið og útskrifaðist auðveldlega án vandræða."
       },
       "time": [2015, 2018],
-      "img": "../img/education/mi.png"
+      "img": "/images/mi.png"
     }
   ]
 }
