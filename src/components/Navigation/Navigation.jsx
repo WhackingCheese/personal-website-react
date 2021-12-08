@@ -11,10 +11,11 @@ import {
   SidebarMenu,
   SidebarLink,
   IconDark,
-  IconLight
+  IconLight,
+  FillerDiv
 } from './Navigation.styles';
 
-function Navigation(props) {
+function Navigation() {
 
   const [ isOpen, setIsOpen ] = useState(false);
   const [ t, lang, changeLang ] = useContext(LanguageContext);
@@ -25,26 +26,40 @@ function Navigation(props) {
     setIsOpen(!isOpen);
   }
 
-  const icon = theme === 'light' ? <IconLight/> : <IconDark/>;
+  const icon = theme === 'light' ? <IconDark/> : <IconLight/>;
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const fn = (() => {
+      let header = document.getElementsByTagName('header')[0];
+      if ((document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) && window.innerWidth > 768) {
+        header.style.fontSize = '10px';
+      } else {
+        header.style.fontSize = '14px';
+      }
+    });
+    window.onscroll = fn;
+    window.onresize = fn;
+  });
   
   return (
     <>
       <Nav>
-        <NavLink to='/' posleft='true'>
+        <NavLink to='/'>
           <WebsiteLogo/>
+          <FillerDiv  posleft='true'/>
         </NavLink>
         <Burger onClick={toggleIsOpen}/>
         <NavMenu>
           {data.routes.map((route, i) => {
             return (
-              <NavLink to={route.route} key={i}>
+              <NavLink to={route.route} key={i} fontSize='14px'>
                 {t(route.name)}
               </NavLink>
             );
           })}
         </NavMenu>
         <NavMenu>
-          <NavLink to='#' onClick={changeLang} noactive='true'>
+          <NavLink to='#' onClick={changeLang} noactive='true' fontSize='14px'>
             {lang === 'is' ? 'ENG' : 'ISL'}
           </NavLink>
           <NavLink to='#' onClick={changeTheme} noactive='true'>

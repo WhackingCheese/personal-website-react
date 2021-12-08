@@ -132,7 +132,13 @@ export const SkillMeter = styled.div`
 `;
 
 export const SkillMeterInner = styled.div`
+  @keyframes barLoad { 0% { width: 0px; } }
+  animation: barLoad 2.5s;
   background-color: #e0dcd7;
   width: ${(props) => props.width};
   height: 100%;
+  
+  @media print {
+    animation: none;
+  }
 `;

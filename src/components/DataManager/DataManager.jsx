@@ -1,12 +1,13 @@
 import { createContext } from 'react';
-import {IoPersonSharp} from 'react-icons/io5';
-import { BsTelephoneFill, BsEnvelope, BsGithub, BsLinkedin, BsGlobe2 } from 'react-icons/bs';
+import { IoPersonSharp } from 'react-icons/io5';
+import { BsTelephoneFill, BsEnvelope, BsGithub, BsLinkedin, BsGlobe2, BsInstagram } from 'react-icons/bs';
 import routes from '../../assets/data/routes.json';
 import references from '../../assets/data/references.json';
 import jobs from '../../assets/data/jobs.json';
 import education from '../../assets/data/education.json';
 import experience from '../../assets/data/experience.json';
 import info from '../../assets/data/info.json';
+import footer from '../../assets/data/footer.json';
 
 const links = {
   'person': {'text': '170999-3479', 'icon': IoPersonSharp},
@@ -14,7 +15,8 @@ const links = {
   'email': {'text': 'mikolaj.cymcyk@gmail.com', 'href': 'mailto:mikolaj.cymcyk@gmail.com', 'icon': BsEnvelope},
   'github': {'text': 'WhackingCheese', 'href': 'https://github.com/whackingcheese', 'icon': BsGithub},
   'linkedin': {'text': 'Mikolaj Cymcyk', 'href': 'https://www.linkedin.com/in/mikolajcymcyk', 'icon': BsLinkedin},
-  'website': {'text': 'www.mikolajcymcyk.com', 'href': 'https://www.mikolajcymcyk.com', 'icon': BsGlobe2}
+  'website': {'text': 'www.mikolajcymcyk.com', 'href': 'https://www.mikolajcymcyk.com', 'icon': BsGlobe2},
+  'instagram': {'text': 'storostur', 'href': 'https://www.instagram.com/mikkicym/', 'icon': BsInstagram}
 }
 
 const data = {
@@ -24,7 +26,8 @@ const data = {
   'education': education,
   'experience': experience,
   'info': info.info,
-  'links': links
+  'links': links,
+  'footer': footer
 };
 
 const DataContext = createContext();

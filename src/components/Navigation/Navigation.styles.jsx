@@ -9,12 +9,12 @@ export const Nav = styled.header`
   background-color: ${(props) => props.theme.bg_secondary};
   position: fixed;
   font-size: 14px;
-  height: 72px;
   display: flex;
   justify-content: space-between;
   width: 100%;
   transition: background-color 0.5s;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
   
   @media screen and (min-width: 1024px) {
     padding: 0 calc((100% - 1024px) / 4);
@@ -29,7 +29,6 @@ export const Nav = styled.header`
 export const Burger = styled(AiOutlineMenu)`
   display: none;
   color: ${(props) => props.theme.primary};
-  transition: color 0.5s;
   margin: 1em;
   height: 3.125em;
   width: 3.125em;
@@ -45,6 +44,7 @@ export const Burger = styled(AiOutlineMenu)`
 `;
 
 export const WebsiteLogo = styled(ReactComponent)`
+  transition: 0.5s;
   display: block;
   height: 3.125em;
   width: 3.125em;
@@ -54,6 +54,7 @@ export const WebsiteLogo = styled(ReactComponent)`
 `;
 
 export const NavLink = styled(Link)`
+  font-size: ${(props) => props.fontSize ? props.fontSize : ''};
   display: flex;
   color: ${(props) => props.theme.primary};
   text-decoration: none;
@@ -70,14 +71,18 @@ export const NavLink = styled(Link)`
       fill: ${(props) => props.theme.accent};
     }
   }
-  
+`;
+
+export const FillerDiv = styled.div`
+  width: 0px;
+  transition: width 0.5s;
+
   @media screen and (min-width: 768px) {
-    width: ${(props) => props.posleft === 'true' ? '88px' : 'max-content'};
+    width: ${(props) => props.posleft === 'true' ? 'calc(18px + 18px + 3em - 3.125em)' : 'max-content'};
   }
 `;
 
 export const NavMenu = styled.div`
-  font-size: 16px;
   display: flex;
   align-items: center;
 
@@ -151,15 +156,13 @@ export const SidebarLink = styled(Link)`
   }
 `;
 
-export const IconDark = styled(BsSun)`
-  margin-top: 3px;
-  height: 1.3125em;
-  width: 1.3125em;
+export const IconLight = styled(BsSun)`
+  height: 18px;
+  width: 18px;
   
 `;
 
-export const IconLight = styled(BsMoonStars)`
-  margin-top: 3px;
-  height: 1.3125em;
-  width: 1.3125em;
+export const IconDark = styled(BsMoonStars)`
+  height: 18px;
+  width: 18px;
 `;

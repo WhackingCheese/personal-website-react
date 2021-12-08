@@ -25,8 +25,6 @@ function Resume() {
 
   const [ t ] = useContext(LanguageContext);
   const [ data ] = useContext(DataContext);
-  console.log(data.routes);
-  const links = ['person', 'phone', 'email', 'github', 'linkedin', 'website'];
 
   return (
     <ResumeContainer>
@@ -77,9 +75,9 @@ function Resume() {
           </SkillsContainer>
           <LineBreak/>
           <FlexContainer flexDirection='column'>
-            {links.map((link, i) => {
+            {data.info.links.map((link, i) => {
               let Elm = data.links[link].icon;
-              return(
+              return (
                 <FlexContainer key={i} color='white' flexDirection='row' justifyContent='flex-start' alignItems='center' margin='5px 0'>
                   <Link color='white' href={data.links[link].href}>
                     <Elm size='25px'/>

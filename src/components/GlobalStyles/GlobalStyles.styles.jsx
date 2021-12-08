@@ -17,7 +17,6 @@ export default createGlobalStyle`
   
   ::-webkit-scrollbar-corner {
     background-color: ${(props) => props.theme.bg_secondary};
-    -webkit-transition: background-color 5s;
   }
 
   body {

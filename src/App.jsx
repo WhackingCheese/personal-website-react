@@ -8,6 +8,7 @@ import {
   PageContainer,
   DataManager
 } from './components';
+import Footer from './components/Footer/Footer';
 import { About, Index, Portfolio, Resume } from './pages';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
                 <Route path='/portfolio' element={<Portfolio/>}/>
                 <Route path='/resume' element={<Resume/>}/>
               </Routes>
+              <Footer/>
             </PageContainer>
           </BrowserRouter>
         </ThemeManager>
