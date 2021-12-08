@@ -1,0 +1,17 @@
+{
+  "title": {
+    "en": "Hi!",
+    "is": "Hæ!"
+  },
+  "subtitle": {
+    "en": "I'm Mikolaj Cymcyk",
+    "is": "Ég er Mikolaj Cymcyk"
+  },
+  "icons": [
+    "email",
+    "instagram",
+    "website",
+    "linkedin",
+    "github"
+  ]
+}

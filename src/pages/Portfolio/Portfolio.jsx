@@ -1,8 +1,15 @@
+import { useContext } from "react";
+import { LanguageContext, DataContext } from '../../components';
+
 function Portfolio() {
+
+  const [ t ] = useContext(LanguageContext);
+  const [ data ] = useContext(DataContext);
+  
   return (
-    <h1>
+    <p>
       Portfolio
-    </h1>
+    </p>
   );
 }
 

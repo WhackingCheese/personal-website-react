@@ -1,13 +1,25 @@
+import { useContext } from "react";
+import { LanguageContext, DataContext } from '../../components';
+import { TextItem, ItemContainer, ItemContainerInner } from "./index.styles";
+
 function Index() {
+
+  const [ t ] = useContext(LanguageContext);
+  const [ data ] = useContext(DataContext);
+  
   return (
-    <div>
-      <div>
-        <h1>Hi! I'm Mikolaj Cymcyk</h1>
-      </div>
-      <div>
-        <h1>A Computer Science Student</h1>
-      </div>
-    </div>
+    <>
+    <ItemContainer>
+      <ItemContainerInner>
+        <TextItem fontSize='24px' fontWeight='600'>
+          {t(data.index.title)}
+        </TextItem>
+        <TextItem fontSize='24px' fontWeight='600'>
+          {t(data.index.subtitle)}
+        </TextItem>
+      </ItemContainerInner>
+    </ItemContainer>
+   </>
   );
 }
 
