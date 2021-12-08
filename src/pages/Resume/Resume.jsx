@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { LanguageContext } from "../../components";
+import { DataContext, LanguageContext } from "../../components";
 import {
   SegmentHeader,
   InfoContainer,
@@ -18,28 +18,15 @@ import {
   SkillContainer,
   SkillsContainer
 } from './Resume.styles';
-import {
-  BsLinkedin,
-  BsGithub,
-  BsEnvelope,
-  BsTelephone,
-  BsTelephoneFill,
-  BsGlobe2
-} from 'react-icons/bs';
 
-import {IoPersonSharp} from 'react-icons/io5';
+import { BsEnvelope, BsTelephone } from 'react-icons/bs';
 
 function Resume() {
 
-  const [ t, data ] = useContext(LanguageContext);
-  const links = [
-    {'text': '170999-3479', 'icon': IoPersonSharp},
-    {'text': '857-2287', 'href': 'tel:8572287', 'icon': BsTelephoneFill},
-    {'text': 'mikolaj.cymcyk@gmail.com', 'href': 'mailto:mikolaj.cymcyk@gmail.com', 'icon': BsEnvelope},
-    {'text': 'WhackingCheese', 'href': 'https://github.com/whackingcheese', 'icon': BsGithub},
-    {'text': 'Mikolaj Cymcyk', 'href': 'https://www.linkedin.com/in/mikolajcymcyk', 'icon': BsLinkedin},
-    {'text': 'www.mikolajcymcyk.com', 'href': 'https://www.mikolajcymcyk.com', 'icon': BsGlobe2}
-  ];
+  const [ t ] = useContext(LanguageContext);
+  const [ data ] = useContext(DataContext);
+  console.log(data.routes);
+  const links = ['person', 'phone', 'email', 'github', 'linkedin', 'website'];
 
   return (
     <ResumeContainer>
@@ -91,13 +78,13 @@ function Resume() {
           <LineBreak/>
           <FlexContainer flexDirection='column'>
             {links.map((link, i) => {
-              let Elm = link.icon;
+              let Elm = data.links[link].icon;
               return(
                 <FlexContainer key={i} color='white' flexDirection='row' justifyContent='flex-start' alignItems='center' margin='5px 0'>
-                  <Link color='white' href={link.href}>
+                  <Link color='white' href={data.links[link].href}>
                     <Elm size='25px'/>
                     <TextItem fontSize='14px' margin='0 0 0 10px'>
-                      {link.text}
+                      {data.links[link].text}
                     </TextItem>
                   </Link>
                 </FlexContainer>

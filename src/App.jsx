@@ -5,28 +5,31 @@ import {
   Navigation,
   LanguageManager,
   ThemeManager,
-  PageContainer
+  PageContainer,
+  DataManager
 } from './components';
 import { About, Index, Portfolio, Resume } from './pages';
 
 function App() {
   return (
     <LanguageManager>
-      <ThemeManager>
-        <GlobalStyles/>
-        <Follower/>
-        <BrowserRouter>
-          <Navigation/>
-          <PageContainer>
-            <Routes>
-              <Route path='/' element={<Index/>}/>
-              <Route path='/about' element={<About/>}/>
-              <Route path='/portfolio' element={<Portfolio/>}/>
-              <Route path='/resume' element={<Resume/>}/>
-            </Routes>
-          </PageContainer>
-        </BrowserRouter>
-      </ThemeManager>
+      <DataManager>
+        <ThemeManager>
+          <GlobalStyles/>
+          <Follower/>
+          <BrowserRouter>
+            <Navigation/>
+            <PageContainer>
+              <Routes>
+                <Route path='/' element={<Index/>}/>
+                <Route path='/about' element={<About/>}/>
+                <Route path='/portfolio' element={<Portfolio/>}/>
+                <Route path='/resume' element={<Resume/>}/>
+              </Routes>
+            </PageContainer>
+          </BrowserRouter>
+        </ThemeManager>
+      </DataManager>
     </LanguageManager>
   );
 }

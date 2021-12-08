@@ -4,6 +4,7 @@ import GlobalStyles from './GlobalStyles/GlobalStyles.styles';
 import { LanguageContext, LanguageManager } from './LanguageManager/LanguageManager';
 import { ThemeContext, ThemeManager } from './ThemeManager/ThemeManager';
 import PageContainer from './PageContainer/PageContainer';
+import { DataManager, DataContext } from './DataManager/DataManager';
 
 export {
   Navigation,
@@ -13,5 +14,7 @@ export {
   LanguageManager,
   ThemeContext,
   ThemeManager,
-  PageContainer
+  PageContainer,
+  DataManager,
+  DataContext
 };

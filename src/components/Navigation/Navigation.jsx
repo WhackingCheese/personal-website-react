@@ -1,5 +1,5 @@
 import { useContext, useState } from 'react';
-import { LanguageContext, ThemeContext } from '../';
+import { DataContext, LanguageContext, ThemeContext } from '../';
 import {
   Nav,
   Burger,
@@ -17,7 +17,8 @@ import {
 function Navigation(props) {
 
   const [ isOpen, setIsOpen ] = useState(false);
-  const [ t, data, lang, changeLang ] = useContext(LanguageContext);
+  const [ t, lang, changeLang ] = useContext(LanguageContext);
+  const [ data ] = useContext(DataContext);
   const [ theme, changeTheme ] = useContext(ThemeContext);
 
   function toggleIsOpen() {

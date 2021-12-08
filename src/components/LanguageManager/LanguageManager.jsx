@@ -1,22 +1,6 @@
 import { createContext, useState } from "react";
 import Cookies from "universal-cookie/es6";
 
-import routes from '../../assets/data/routes.json';
-import references from '../../assets/data/references.json';
-import jobs from '../../assets/data/jobs.json';
-import education from '../../assets/data/education.json';
-import experience from '../../assets/data/experience.json';
-import info from '../../assets/data/info.json';
-
-const data = {
-  'routes': routes.routes,
-  'references': references,
-  'jobs': jobs,
-  'education': education,
-  'experience': experience,
-  'info': info.info
-};
-
 const cookies = new Cookies();
 const defaultLang = 'en';
 const availablelangs = ['en', 'is'];
@@ -60,7 +44,7 @@ function LanguageManager(props) {
   }
   
   return (
-    <LanguageContext.Provider value={[t, data, lang, changeLang]}>
+    <LanguageContext.Provider value={[t, lang, changeLang]}>
       {props.children}
     </LanguageContext.Provider>
   );
