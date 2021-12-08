@@ -1,13 +1,4 @@
 import styled from "styled-components";
-import {
-  BsLinkedin,
-  BsInstagram,
-  BsGithub,
-  BsEnvelope,
-  BsTelephone,
-  BsGlobe2,
-  BsFillPersonFill
-} from 'react-icons/bs';
 
 export const ResumeContainer = styled.div`
   width: 1000px;
@@ -31,18 +22,19 @@ export const ResumeInner = styled.div`
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: row;
+  overflow: hidden;
+  height: 1294px;
 `;
 
 export const ResumeSplit = styled.div`
   box-sizing: border-box;
-  background-color: ${(props) => props.backgroundColor};
   width: ${(props) => props.width};
   padding: 20px;
-  height: fit-content;
   box-shadow: ${(props) => props.shadow === 'true' ? '0 1px 10px 0 rgba(0, 0, 0, 0.25)' : ''};
 `;
 
 export const ResumeInnerContainer = styled.div`
+  margin: ${(props) => props.margin ? props.margin : '0'};
 `;
 
 export const InfoContainer = styled.div`
@@ -50,7 +42,6 @@ export const InfoContainer = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: 100%;
 `;
 
 export const ImageItem = styled.img`
@@ -67,7 +58,7 @@ export const LineBreak = styled.hr`
   height: 1px;
   width: 100%;
   margin: 10px 0 20px 0;
-`
+`;
 
 export const TextItem = styled.p`
   font-weight: ${(props) => props.fontWeight};
@@ -75,20 +66,8 @@ export const TextItem = styled.p`
   color: ${(props) => props.color};
   text-align: ${(props) => props.textAlign};
   margin: ${(props) => props.margin ? props.margin : '0 0 10px 0'};
-`;
-
-export const SkillMeter = styled.div`
-  width: 100%;
-  height: 7px;
-  border-radius: 7px;
-  border: #333333 solid 1px;
-  overflow: hidden;
-`;
-
-export const SkillMeterInner = styled.div`
-  background-color: ${(props) => props.theme.accent};
-  width: ${(props) => props.width};
-  height: 100%;
+  display: flex;
+  align-items: center;
 `;
 
 export const SegmentHeader = styled.h2`
@@ -109,18 +88,47 @@ export const FlexContainer = styled.div`
   display: flex;
   flex-direction: ${(props) => props.flexDirection};
   justify-content: ${(props) => props.justifyContent ? props.justifyContent : 'space-between'};
-  color: #333333;
+  align-items: ${(props) => props.alignItems ? props.alignItems : 'normal'};
+  color: ${(props) => props.color ? props.color : '#333333'};
+  margin: ${(props) => props.margin ? props.margin : '0'};
 `;
 
 export const Link = styled.a`
-  color: #333333;
+  color: ${(props) => props.color ? props.color : '#333333'};
   transition: color 0.5s;
   text-decoration: none;
   margin: ${(props) => props.margin ? props.margin : '0'};
   padding: ${(props) => props.padding ? props.padding : '0'};
   display: flex;
+  align-content: center;
 
   &:hover {
     color: ${(props) => props.theme.accent};
   }
+`;
+
+export const SkillsContainer = styled.div`
+  margin: 10px 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+`;
+
+export const SkillContainer = styled.div`
+  margin: 5px 0;
+`;
+
+export const SkillMeter = styled.div`
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  border: #333333 solid 1px;
+  background-color: #333333;
+  overflow: hidden;
+`;
+
+export const SkillMeterInner = styled.div`
+  background-color: #e0dcd7;
+  width: ${(props) => props.width};
+  height: 100%;
 `;

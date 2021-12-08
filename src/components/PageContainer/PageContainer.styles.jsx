@@ -7,6 +7,7 @@ export const WebsiteContainer = styled.div`
   transition: background-color 0.5s;
   min-height: 100vh;
   background-color: ${(props) => props.theme.bg_primary};
+  color: ${(props) => props.theme.primary}
 `;
 
 export const InnerContainer = styled.div`

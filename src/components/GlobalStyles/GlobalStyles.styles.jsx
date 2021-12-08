@@ -1,6 +1,24 @@
 import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
+  ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: ${(props) => props.theme.bg_secondary};
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: ${(props) => props.theme.secondary};
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-corner {
+    background-color: ${(props) => props.theme.bg_secondary};
+    -webkit-transition: background-color 5s;
+  }
 
   body {
     margin: 0;
