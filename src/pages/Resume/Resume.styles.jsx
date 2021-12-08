@@ -24,6 +24,10 @@ export const ResumeInner = styled.div`
   flex-direction: row;
   overflow: hidden;
   height: 1294px;
+
+  @media print {
+    border-radius: 0px;
+  }
 `;
 
 export const ResumeSplit = styled.div`
