@@ -10,10 +10,9 @@ import {
   SidebarContainer,
   SidebarMenu,
   SidebarLink,
-  IconDark,
-  IconLight,
   FillerDiv
 } from './Navigation.styles';
+import { BsMoonStars, BsSun } from 'react-icons/bs';
 
 function Navigation() {
 
@@ -26,17 +25,22 @@ function Navigation() {
     setIsOpen(!isOpen);
   }
 
-  const icon = theme === 'light' ? <IconDark/> : <IconLight/>;
+  const Icon = theme === 'light' ? BsMoonStars : BsSun;
 
   window.addEventListener('DOMContentLoaded', () => {
     const fn = (() => {
       let header = document.getElementsByTagName('header')[0];
-      if ((document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) && window.innerWidth > 768) {
+      if ((document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) && window.innerWidth > 768) {
         header.style.fontSize = '10px';
       } else {
-        header.style.fontSize = '14px';
+        if (window.innerWidth < 765) {
+          header.style.fontSize = '12px';
+        } else {
+          header.style.fontSize = '14px';
+        }
       }
     });
+    fn();
     window.onscroll = fn;
     window.onresize = fn;
   });
@@ -63,7 +67,7 @@ function Navigation() {
             {lang === 'is' ? 'ENG' : 'ISL'}
           </NavLink>
           <NavLink to='#' onClick={changeTheme} noactive='true'>
-            {icon}
+            <Icon size='18px'/>
           </NavLink>
         </NavMenu>
       </Nav>
@@ -83,7 +87,7 @@ function Navigation() {
             {lang === 'is' ? 'ENG' : 'ISL'}
           </SidebarLink>
           <SidebarLink to='#' onClick={changeTheme} noactive='true'>
-            {icon}
+            <Icon size='24px'/>
           </SidebarLink>
         </SidebarMenu>
       </SidebarContainer>

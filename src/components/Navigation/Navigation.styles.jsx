@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 import { NavLink as Link } from 'react-router-dom';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import { BsMoonStars, BsSun } from 'react-icons/bs';
 import { ReactComponent } from '../../assets/images/branding/logo-transparent.svg';
 
 export const Nav = styled.header`
@@ -11,11 +10,10 @@ export const Nav = styled.header`
   font-size: 14px;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 100vw;
   transition: background-color 0.5s;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
-  transition: 0.5s;
-  
+
   @media screen and (min-width: 1024px) {
     padding: 0 calc((100% - 1024px) / 4);
     width: calc(100% - ( 2 * ((100% - 1024px) / 4)));
@@ -111,6 +109,7 @@ export const SidebarContainer = styled.aside`
 `;
 
 export const CloseIcon = styled(AiOutlineClose)`
+  font-size: 12px;
   position: absolute;
   top: 0;
   right: 0;
@@ -154,15 +153,4 @@ export const SidebarLink = styled(Link)`
   @media screen and (max-height: 768px) {
     height: 60px;
   }
-`;
-
-export const IconLight = styled(BsSun)`
-  height: 18px;
-  width: 18px;
-  
-`;
-
-export const IconDark = styled(BsMoonStars)`
-  height: 18px;
-  width: 18px;
 `;

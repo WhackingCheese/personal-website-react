@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const ResumeContainer = styled.div`
-  width: 1000px;
-  padding: 40px 0;
-  margin: 0 auto;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   
   & > * {
     padding: 0;
@@ -12,29 +13,51 @@ export const ResumeContainer = styled.div`
   
   @media print {
     padding: 0;
+    margin: 0;
+    width: 1000px;
+    height: 1294px;
+  }
+
+  @media screen and (max-width: 700px) {
+    width: 100%;
   }
 `;
 
 export const ResumeInner = styled.div`
-  width: 100%;
-  background: linear-gradient(90deg, #555555 30%, #FFFFFF 30%);
+  width: 1000px;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
   display: flex;
-  flex-direction: row;
-  overflow: hidden;
-  height: 1294px;
+  justify-content: center;
 
-  @media print {
-    border-radius: 0px;
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+    width: 500px;
+  }
+
+  @media screen and (max-width: 364px) {
+    width: 320px;
   }
 `;
 
 export const ResumeSplit = styled.div`
-  box-sizing: border-box;
+  box-shadow: ${(props) => props.boxShadow === 'true' ? '0 1px 10px 0 rgba(0, 0, 0, 0.25);' : 'none'};
   width: ${(props) => props.width};
+  background-color: ${(props) => props.backgroundColor};
+  box-sizing: border-box;
   padding: 20px;
-  box-shadow: ${(props) => props.shadow === 'true' ? '0 1px 10px 0 rgba(0, 0, 0, 0.25)' : ''};
+  
+  @media screen and (max-width: 700px) {
+    width: 100%;
+  }
+
+  @media screen and (max-width: 364px) {
+    width: 320px;
+  }
+
+  @media screen and (max-width: 300px) {
+    width: 280px;
+  }
 `;
 
 export const ResumeInnerContainer = styled.div`
@@ -95,6 +118,32 @@ export const FlexContainer = styled.div`
   align-items: ${(props) => props.alignItems ? props.alignItems : 'normal'};
   color: ${(props) => props.color ? props.color : '#333333'};
   margin: ${(props) => props.margin ? props.margin : '0'};
+`;
+
+export const IconFlexContainer = styled.div`
+  display: flex;
+  flex-direction: ${(props) => props.flexDirection};
+  justify-content: ${(props) => props.justifyContent ? props.justifyContent : 'space-between'};
+  align-items: ${(props) => props.alignItems ? props.alignItems : 'normal'};
+  color: ${(props) => props.color ? props.color : '#333333'};
+  margin: ${(props) => props.margin ? props.margin : '0'};
+
+  @media screen and (max-width: 400px) {
+    flex-direction: column;
+  }
+`;
+
+export const LinkFlexContainer = styled.div`
+  display: flex;
+  flex-direction: ${(props) => props.flexDirection};
+  justify-content: ${(props) => props.justifyContent ? props.justifyContent : 'space-between'};
+  align-items: ${(props) => props.alignItems ? props.alignItems : 'normal'};
+  color: ${(props) => props.color ? props.color : '#333333'};
+  margin: ${(props) => props.margin ? props.margin : '0'};
+
+  @media screen and (max-width: 700px) {
+    flex-direction: column;
+  }
 `;
 
 export const Link = styled.a`

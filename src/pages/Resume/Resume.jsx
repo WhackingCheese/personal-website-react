@@ -16,7 +16,9 @@ import {
   ResumeInnerContainer,
   Link,
   SkillContainer,
-  SkillsContainer
+  SkillsContainer,
+  IconFlexContainer,
+  LinkFlexContainer
 } from './Resume.styles';
 
 import { BsEnvelope, BsTelephone } from 'react-icons/bs';
@@ -29,7 +31,7 @@ function Resume() {
   return (
     <ResumeContainer>
       <ResumeInner>
-        <ResumeSplit width={'30%'} shadow='true'>
+        <ResumeSplit backgroundColor='#555555' width='300px' boxShadow='true'>
           <InfoContainer>
             <ImageItem
               src={data.info.img}
@@ -78,19 +80,19 @@ function Resume() {
             {data.info.links.map((link, i) => {
               let Elm = data.links[link].icon;
               return (
-                <FlexContainer key={i} color='white' flexDirection='row' justifyContent='flex-start' alignItems='center' margin='5px 0'>
+                <LinkFlexContainer key={i} color='white' flexDirection='row' justifyContent='flex-start' alignItems='center' margin='5px 0'>
                   <Link color='white' href={data.links[link].href}>
                     <Elm size='25px'/>
                     <TextItem fontSize='14px' margin='0 0 0 10px'>
                       {data.links[link].text}
                     </TextItem>
                   </Link>
-                </FlexContainer>
+                </LinkFlexContainer>
               );
             })}
           </FlexContainer>
         </ResumeSplit>
-        <ResumeSplit width={'70%'}>
+        <ResumeSplit backgroundColor='#FFFFFF' width='70%'>
           <ResumeInnerContainer margin='-20px 0 0 0'>
             <SegmentHeader>{t(data.education.educationTitle)}</SegmentHeader>
             {data.education.education.map((school, i) => {
@@ -185,7 +187,7 @@ function Resume() {
                   <TextItem fontWeight={'500'} fontSize={'14px'} margin={'0'}>
                     {t(reference.company)} - {t(reference.position)}
                   </TextItem>
-                  <FlexContainer flexDirection={'row'} justifyContent='flex-start'>
+                  <IconFlexContainer flexDirection={'row'} justifyContent='flex-start'>
                     <Link href={`tel:${reference.phoneNr}`} margin='0 25px 0 0'>
                       <BsTelephone size='20px'/>
                       <TextItem margin={'0 0 0 10px'}>
@@ -198,7 +200,7 @@ function Resume() {
                         {reference.email}
                       </TextItem>
                     </Link>
-                  </FlexContainer>
+                  </IconFlexContainer>
                 </SegmentContainer>
               );
             })}
