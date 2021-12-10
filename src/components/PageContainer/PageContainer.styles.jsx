@@ -10,9 +10,14 @@ export const WebsiteContainer = styled.div`
 `;
 
 export const InnerContainer = styled.div`
+  transition: padding-top 0.5s;
   padding-top: 72px;
   
   @media print {
     padding-top: 0;
+  }
+
+  @media screen and (max-width: 764px) {
+    padding-top: 61.5px;
   }
 `;
