@@ -76,7 +76,7 @@ export const FillerDiv = styled.div`
   transition: width 0.5s;
 
   @media screen and (min-width: 768px) {
-    width: ${(props) => props.posleft === 'true' ? 'calc(18px + 18px + 3em - 3.125em)' : 'max-content'};
+    width: ${(props) => props.posleft === 'true' ? 'calc(64px - 3.125em)' : 'max-content'};
   }
 `;
 

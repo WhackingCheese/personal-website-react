@@ -12,6 +12,8 @@ export const WebsiteContainer = styled.div`
 export const InnerContainer = styled.div`
   transition: padding-top 0.5s;
   padding-top: 72px;
+  min-height: 100vh;
+  box-sizing: border-box;
   
   @media print {
     padding-top: 0;

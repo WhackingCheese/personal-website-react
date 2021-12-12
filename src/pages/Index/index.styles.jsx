@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const ItemContainer = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100%;
 `;
 
@@ -30,6 +31,3 @@ export const TextItem = styled.p`
   animation: textLoad ease-in-out 1s;
   font-weight: ${(props) => props.fontWeight ? props.fontWeight : '400'};
 `;
-
-
-

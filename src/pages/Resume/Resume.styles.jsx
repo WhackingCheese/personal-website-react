@@ -29,6 +29,12 @@ export const ResumeInner = styled.div`
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
   display: flex;
   justify-content: center;
+  border-radius: 5px;
+  overflow: hidden;
+
+  @media print {
+    border-radius: 0px;
+  }
 
   @media screen and (max-width: 700px) {
     flex-direction: column;

@@ -8,7 +8,6 @@ function Index() {
   const [ data ] = useContext(DataContext);
   
   return (
-    <>
     <ItemContainer>
       <ItemContainerInner>
         <TextItem fontSize='24px' fontWeight='600'>
@@ -19,7 +18,6 @@ function Index() {
         </TextItem>
       </ItemContainerInner>
     </ItemContainer>
-   </>
   );
 }
 
