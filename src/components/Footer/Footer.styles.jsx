@@ -5,6 +5,7 @@ export const StyledFooter = styled.footer`
   background-color: ${(props) => props.theme.bg_secondary};
   display: flex;
   flex-direction: column;
+  transition: background-color 0.5s;
 
   @media print {
     display: none;

@@ -9,7 +9,7 @@ import {
   DataManager
 } from './components';
 import Footer from './components/Footer/Footer';
-import { About, Index, Portfolio, Resume, NotFound } from './pages';
+import { About, Index, Portfolio, Resume, NotFound, Courses } from './pages';
 
 function App() {
   return (
@@ -26,6 +26,7 @@ function App() {
                 <Route path='/about' element={<About/>}/>
                 <Route path='/portfolio' element={<Portfolio/>}/>
                 <Route path='/resume' element={<Resume/>}/>
+                <Route path='/courses' element={<Courses/>}/>
                 <Route path='*' element={<NotFound/>}/>
               </Routes>
               <Footer/>
