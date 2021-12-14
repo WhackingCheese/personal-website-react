@@ -9,7 +9,7 @@ function Footer() {
   const [ t ] = useContext(LanguageContext);
 
   if (useLocation().pathname === '/') {
-    return ( <></> )
+    return ( <></> );
   }
 
   return (

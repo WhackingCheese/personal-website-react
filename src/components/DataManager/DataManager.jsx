@@ -27,7 +27,7 @@ const data = {
   'jobs': jobs,
   'education': education,
   'experience': experience,
-  'info': info.info,
+  'info': info,
   'links': links,
   'footer': footer,
   'index': index,

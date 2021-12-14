@@ -1,64 +1,62 @@
 {
-  "info": {
-    "title": "Mikolaj Cymcyk",
-    "img": "/images/profile.png",
-    "subtitle": {
-      "en": "Third year Computer Science undergraduate at the University of Iceland",
-      "is": "Þriðja árs nemi í Tölvunarfræði við Háskóla Íslands"
+  "title": "Mikolaj Cymcyk",
+  "img": "/images/profile.png",
+  "subtitle": {
+    "en": "Third year Computer Science undergraduate at the University of Iceland",
+    "is": "Þriðja árs nemi í Tölvunarfræði við Háskóla Íslands"
+  },
+  "links": [
+    "person",
+    "phone",
+    "email",
+    "github",
+    "linkedin",
+    "website"
+  ],
+  "info": [
+    {
+      "en": "A positive, diligent, punctual, and responsible person that always thoroughly enjoys tackling new and demanding challenges and projects and is always ready to learn something new. Very organized possessing excellent communication skills as well as being fluent in English, Icelandic, and Polish with a rudimentary knowledge of Danish and German.",
+      "is": "Jákvæður, duglegur, stundvís og ábyrgur einstaklingur sem hefur alltaf mjög gaman af því að takast á móti nýjum og krefjandi áskorunum og verkefnum og er alltaf tilbúinn að læra eitthvað nýtt. Vel skipulagður með góða samskiptahæfni auk þess að vera reiprennandi í Ensku, Íslensku og Pólsku með grunnkunnáttu í Dönsku og Þýsku."
     },
-    "links": [
-      "person",
-      "phone",
-      "email",
-      "github",
-      "linkedin",
-      "website"
-    ],
-    "info": [
-      {
-        "en": "A positive, diligent, punctual, and responsible person that always thoroughly enjoys tackling new and demanding challenges and projects and is always ready to learn something new. Very organized possessing excellent communication skills as well as being fluent in English, Icelandic, and Polish with a rudimentary knowledge of Danish and German.",
-        "is": "Jákvæður, duglegur, stundvís og ábyrgur einstaklingur sem hefur alltaf mjög gaman af því að takast á móti nýjum og krefjandi áskorunum og verkefnum og er alltaf tilbúinn að læra eitthvað nýtt. Vel skipulagður með góða samskiptahæfni auk þess að vera reiprennandi í Ensku, Íslensku og Pólsku með grunnkunnáttu í Dönsku og Þýsku."
-      },
-      {
-        "en": "I have many interests, but my main hobbies revolve around cooking delicious food, computers and computer hardware, movies, computer games, and the outdoors.",
-        "is": "Ég er með mörg áhugamál en þau helstu snúast að eldamennsku á gómsætum mat, tölvum og tölvubúnaði, bíómyndum, tölvuleikjum og útivist."
-      }
-    ],
-    "skills": {
-      "header": {
-        "en": "Programming Skills",
-        "is": "Forritunarkunnátta"
-      },
-      "data": [
-        {
-          "name": "Python",
-          "rating": 4.8
-        },
-        {
-          "name": "Java",
-          "rating": 4.2
-        },
-        {
-          "name": "C",
-          "rating": 3.5
-        },
-        {
-          "name": "SQL",
-          "rating": 4
-        },
-        {
-          "name": "Git",
-          "rating": 4.3
-        },
-        {
-          "name": "JavaScript | CSS",
-          "rating": 4.2
-        },
-        {
-          "name": "Node | Express | React",
-          "rating": 4.5
-        }
-      ]
+    {
+      "en": "I have many interests, but my main hobbies revolve around cooking delicious food, computers and computer hardware, movies, computer games, and the outdoors.",
+      "is": "Ég er með mörg áhugamál en þau helstu snúast að eldamennsku á gómsætum mat, tölvum og tölvubúnaði, bíómyndum, tölvuleikjum og útivist."
     }
+  ],
+  "skills": {
+    "header": {
+      "en": "Programming Skills",
+      "is": "Forritunarkunnátta"
+    },
+    "data": [
+      {
+        "name": "Python",
+        "rating": 4.8
+      },
+      {
+        "name": "Java",
+        "rating": 4.2
+      },
+      {
+        "name": "C",
+        "rating": 3.5
+      },
+      {
+        "name": "SQL",
+        "rating": 4
+      },
+      {
+        "name": "Git",
+        "rating": 4.3
+      },
+      {
+        "name": "JavaScript | CSS",
+        "rating": 4.2
+      },
+      {
+        "name": "Node | Express | React",
+        "rating": 4.5
+      }
+    ]
   }
 }

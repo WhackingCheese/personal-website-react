@@ -1,356 +1,340 @@
 {
-  "courses": {
-    "title": "Mikolaj Cymcyk",
-    "subtitle": {
-      "en": "Overview of current and completed courses towards my Computer Science BS at the University of Iceland.",
-      "is": "Yfirlit á núverandi og loknum áföngum fyrir Tölvunarfræði BS hjá Háskóla Íslands."
+  "title": "Mikolaj Cymcyk",
+  "subtitle": {
+    "en": "Overview of current and completed courses towards my Computer Science BS at the University of Iceland.",
+    "is": "Yfirlit á núverandi og loknum áföngum fyrir Tölvunarfræði BS hjá Háskóla Íslands."
+  },
+  "sub_subtitle": [
+    {
+      "en": "At this moment I've completed 170 ECTS units with a first class grade and have 10 units left for the next semester.",
+      "is": "Hingað til hef ég lokið 170 ECTS einingum með fyrstu einkunn og á 10 einingar eftir fyrir næstu önn."
     },
-    "sub_subtitle": [
-      {
-        "en": "At this moment I've completed 170 ECTS units with a first class grade and have 10 units left for the next semester.",
-        "is": "Hingað til hef ég lokið 170 ECTS einingum með fyrstu einkunn og á 10 einingar eftir fyrir næstu önn."
+    {
+      "en": "Expected to graduate in autumn 2021.",
+      "is": "Áætluð útskrift er haustið 2021."
+    }
+  ],
+  "degree": {
+    "en": "Computer Science, BS",
+    "is": "Tölvunarfræði, BS"
+  },
+  "courses": [
+    {
+      "semester": {
+        "en": "Autumn 2021",
+        "is": "Haust 2021"
       },
-      {
-        "en": "Expected to graduate in autumn 2021.",
-        "is": "Áætluð útskrift er haustið 2021."
-      }
-    ],
-    "degree": {
-      "en": "Computer Science, BS",
-      "is": "Tölvunarfræði, BS"
-    },
-    "headers": {
-      "en": [
-        "Course",
-        "Number",
-        "Units",
-        "Finished"
-      ],
-      "is": [
-        "Áfangi",
-        "Áfanganúmer",
-        "Einingar",
-        "Lokið"
+      "courses": [
+        {
+          "name": {
+            "en": "Computer Game Programming",
+            "is": "Tölvuleikjaforritun"
+          },
+          "number": "TÖL308G",
+          "credits": 6,
+          "finished": false
+        },
+        {
+          "name": {
+            "en": "Introduction to Financial Accounting",
+            "is": "Inngangur að fjárhagsbókhaldi"
+          },
+          "number": "VIÐ103G",
+          "credits": 6,
+          "finished": false
+        }
       ]
     },
-    "courses": [
-      {
-        "semester": {
-          "en": "Autumn 2021",
-          "is": "Haust 2021"
-        },
-        "data": [
-          {
-            "course_name": {
-              "en": "Computer Game Programming",
-              "is": "Tölvuleikjaforritun"
-            },
-            "course_number": "TÖL308G",
-            "credits": 6,
-            "finished": false
-          },
-          {
-            "course_name": {
-              "en": "Introduction to Financial Accounting",
-              "is": "Inngangur að fjárhagsbókhaldi"
-            },
-            "course_number": "VIÐ103G",
-            "credits": 6,
-            "finished": false
-          }
-        ]
+    {
+      "semester": {
+        "en": "Spring 2021",
+        "is": "Vor 2021"
       },
-      {
-        "semester": {
-          "en": "Spring 2021",
-          "is": "Vor 2021"
+      "courses": [
+        {
+          "name": {
+            "en": "Cybersecurity for Critical Infrastructure",
+            "is": "Tölvuöryggi innviða"
+          },
+          "number": "HBV603M",
+          "credits": 6,
+          "finished": true
         },
-        "data": [
-          {
-            "course_name": {
-              "en": "Cybersecurity for Critical Infrastructure",
-              "is": "Tölvuöryggi innviða"
-            },
-            "course_number": "HBV603M",
-            "credits": 6,
-            "finished": true
+        {
+          "name": {
+            "en": "Competitive programming",
+            "is": "Keppnisforritun"
           },
-          {
-            "course_name": {
-              "en": "Competitive programming",
-              "is": "Keppnisforritun"
-            },
-            "course_number": "TÖL607G",
-            "credits": 6,
-            "finished": true
+          "number": "TÖL607G",
+          "credits": 6,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Web Programming 2",
+            "is": "Vefforritun 2"
           },
-          {
-            "course_name": {
-              "en": "Web Programming 2",
-              "is": "Vefforritun 2"
-            },
-            "course_number": "HBV403G",
-            "credits": 6,
-            "finished": true
+          "number": "HBV403G",
+          "credits": 6,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Software Project 2",
+            "is": "Hugbúnaðarverkefni 2"
           },
-          {
-            "course_name": {
-              "en": "Software Project 2",
-              "is": "Hugbúnaðarverkefni 2"
-            },
-            "course_number": "HBV601G",
-            "credits": 6,
-            "finished": true
-          }
-        ]
+          "number": "HBV601G",
+          "credits": 6,
+          "finished": true
+        }
+      ]
+    },
+    {
+      "semester": {
+        "en": "Autumn 2020",
+        "is": "Haust 2020"
       },
-      {
-        "semester": {
-          "en": "Autumn 2020",
-          "is": "Haust 2020"
+      "courses": [
+        {
+          "name": {
+            "en": "Introduction to language technology",
+            "is": "Inngangur að máltækni"
+          },
+          "number": "TÖL025M",
+          "credits": 6,
+          "finished": true
         },
-        "data": [
-          {
-            "course_name": {
-              "en": "Introduction to language technology",
-              "is": "Inngangur að máltækni"
-            },
-            "course_number": "TÖL025M",
-            "credits": 6,
-            "finished": true
+        {
+          "name": {
+            "en": "Cryptocurrency",
+            "is": "Rafmyntir"
           },
-          {
-            "course_name": {
-              "en": "Cryptocurrency",
-              "is": "Rafmyntir"
-            },
-            "course_number": "STÆ532M",
-            "credits": 6,
-            "finished": true
+          "number": "STÆ532M",
+          "credits": 6,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Cloud Computing and Big Data",
+            "is": "Skýjaforritun og stórgögn"
           },
-          {
-            "course_name": {
-              "en": "Cloud Computing and Big Data",
-              "is": "Skýjaforritun og stórgögn"
-            },
-            "course_number": "REI504M",
-            "credits": 6,
-            "finished": true
+          "number": "REI504M",
+          "credits": 6,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Software Project 1",
+            "is": "Hugbúnaðarverkefni 1"
           },
-          {
-            "course_name": {
-              "en": "Software Project 1",
-              "is": "Hugbúnaðarverkefni 1"
-            },
-            "course_number": "HBV501G",
-            "credits": 6,
-            "finished": true
-          }
-        ]
+          "number": "HBV501G",
+          "credits": 6,
+          "finished": true
+        }
+      ]
+    },
+    {
+      "semester": {
+        "en": "Spring 2020",
+        "is": "Vor 2020"
       },
-      {
-        "semester": {
-          "en": "Spring 2020",
-          "is": "Vor 2020"
+      "courses": [
+        {
+          "name": {
+            "en": "Statistics and Data Analysis",
+            "is": "Tölfræði og gagnavinnsla"
+          },
+          "number": "STÆ209G",
+          "credits": 8,
+          "finished": true
         },
-        "data": [
-          {
-            "course_name": {
-              "en": "Statistics and Data Analysis",
-              "is": "Tölfræði og gagnavinnsla"
-            },
-            "course_number": "STÆ209G",
-            "credits": 8,
-            "finished": true
+        {
+          "name": {
+            "en": "Computer Graphics",
+            "is": "Tölvugrafík"
           },
-          {
-            "course_name": {
-              "en": "Computer Graphics",
-              "is": "Tölvugrafík"
-            },
-            "course_number": "TÖL203M",
-            "credits": 6,
-            "finished": true
+          "number": "TÖL203M",
+          "credits": 6,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Analysis of Algorithms",
+            "is": "Greining reiknirita"
           },
-          {
-            "course_name": {
-              "en": "Analysis of Algorithms",
-              "is": "Greining reiknirita"
-            },
-            "course_number": "TÖL403G",
-            "credits": 6,
-            "finished": true
+          "number": "TÖL403G",
+          "credits": 6,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Operating Systems",
+            "is": "Stýrikerfi"
           },
-          {
-            "course_name": {
-              "en": "Operating Systems",
-              "is": "Stýrikerfi"
-            },
-            "course_number": "TÖL401G",
-            "credits": 6,
-            "finished": true
+          "number": "TÖL401G",
+          "credits": 6,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Software Development",
+            "is": "Þróun hugbúnaðar"
           },
-          {
-            "course_name": {
-              "en": "Software Development",
-              "is": "Þróun hugbúnaðar"
-            },
-            "course_number": "HBV401G",
-            "credits": 6,
-            "finished": true
-          }
-        ]
+          "number": "HBV401G",
+          "credits": 6,
+          "finished": true
+        }
+      ]
+    },
+    {
+      "semester": {
+        "en": "Autumn 2019",
+        "is": "Haust 2019"
       },
-      {
-        "semester": {
-          "en": "Autumn 2019",
-          "is": "Haust 2019"
+      "courses": [
+        {
+          "name": {
+            "en": "Computer organization and programming",
+            "is": "Tölvutækni og forritun"
+          },
+          "number": "TÖL309G",
+          "credits": 6,
+          "finished": true
         },
-        "data": [
-          {
-            "course_name": {
-              "en": "Computer organization and programming",
-              "is": "Tölvutækni og forritun"
-            },
-            "course_number": "TÖL309G",
-            "credits": 6,
-            "finished": true
+        {
+          "name": {
+            "en": "Formal Languages and Computability",
+            "is": "Formleg mál og reiknanleiki"
           },
-          {
-            "course_name": {
-              "en": "Formal Languages and Computability",
-              "is": "Formleg mál og reiknanleiki"
-            },
-            "course_number": "TÖL301G",
-            "credits": 6,
-            "finished": true
+          "number": "TÖL301G",
+          "credits": 6,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Computer Networks and Security",
+            "is": "Tölvunet og öryggi"
           },
-          {
-            "course_name": {
-              "en": "Computer Networks and Security",
-              "is": "Tölvunet og öryggi"
-            },
-            "course_number": "TÖL305G",
-            "credits": 6,
-            "finished": true
+          "number": "TÖL305G",
+          "credits": 6,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Programming Languages",
+            "is": "Forritunarmál"
           },
-          {
-            "course_name": {
-              "en": "Programming Languages",
-              "is": "Forritunarmál"
-            },
-            "course_number": "TÖL304G",
-            "credits": 6,
-            "finished": true
+          "number": "TÖL304G",
+          "credits": 6,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Data Base Theory and Practice",
+            "is": "Gagnasafnsfræði"
           },
-          {
-            "course_name": {
-              "en": "Data Base Theory and Practice",
-              "is": "Gagnasafnsfræði"
-            },
-            "course_number": "TÖL303G",
-            "credits": 6,
-            "finished": true
-          }
-        ]
+          "number": "TÖL303G",
+          "credits": 6,
+          "finished": true
+        }
+      ]
+    },
+    {
+      "semester": {
+        "en": "Spring 2019",
+        "is": "Vor 2019"
       },
-      {
-        "semester": {
-          "en": "Spring 2019",
-          "is": "Vor 2019"
+      "courses": [
+        {
+          "name": {
+            "en": "Digital Circuit Design and Analysis - lab",
+            "is": "Greining og hönnun stafrænna rása - verklegt"
+          },
+          "number": "TÖV202G",
+          "credits": 2,
+          "finished": true
         },
-        "data": [
-          {
-            "course_name": {
-              "en": "Digital Circuit Design and Analysis - lab",
-              "is": "Greining og hönnun stafrænna rása - verklegt"
-            },
-            "course_number": "TÖV202G",
-            "credits": 2,
-            "finished": true
+        {
+          "name": {
+            "en": "Computer Science 2",
+            "is": "Tölvunarfræði 2"
           },
-          {
-            "course_name": {
-              "en": "Computer Science 2",
-              "is": "Tölvunarfræði 2"
-            },
-            "course_number": "TÖL203G",
-            "credits": 6,
-            "finished": true
+          "number": "TÖL203G",
+          "credits": 6,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Mathematics and Scientific Computing",
+            "is": "Stærðfræði og reiknifræði"
           },
-          {
-            "course_name": {
-              "en": "Mathematics and Scientific Computing",
-              "is": "Stærðfræði og reiknifræði"
-            },
-            "course_number": "REI201G",
-            "credits": 8,
-            "finished": true
+          "number": "REI201G",
+          "credits": 8,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Graphical User Interface Programming",
+            "is": "Viðmótsforritun"
           },
-          {
-            "course_name": {
-              "en": "Graphical User Interface Programming",
-              "is": "Viðmótsforritun"
-            },
-            "course_number": "HBV201G",
-            "credits": 8,
-            "finished": true
+          "number": "HBV201G",
+          "credits": 8,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Digital Circuit Design and Analysis",
+            "is": "Greining og hönnun stafrænna rása"
           },
-          {
-            "course_name": {
-              "en": "Digital Circuit Design and Analysis",
-              "is": "Greining og hönnun stafrænna rása"
-            },
-            "course_number": "TÖV201G",
-            "credits": 6,
-            "finished": true
-          }
-        ]
+          "number": "TÖV201G",
+          "credits": 6,
+          "finished": true
+        }
+      ]
+    },
+    {
+      "semester": {
+        "en": "Autumn 2018",
+        "is": "Haust 2018"
       },
-      {
-        "semester": {
-          "en": "Autumn 2018",
-          "is": "Haust 2018"
+      "courses": [
+        {
+          "name": {
+            "en": "Practical Mathematical Analysis",
+            "is": "Hagnýt stærðfræðigreining"
+          },
+          "number": "STÆ105G",
+          "credits": 8,
+          "finished": true
         },
-        "data": [
-          {
-            "course_name": {
-              "en": "Practical Mathematical Analysis",
-              "is": "Hagnýt stærðfræðigreining"
-            },
-            "course_number": "STÆ105G",
-            "credits": 8,
-            "finished": true
+        {
+          "name": {
+            "en": "Web Programming 1",
+            "is": "Vefforritun 1"
           },
-          {
-            "course_name": {
-              "en": "Web Programming 1",
-              "is": "Vefforritun 1"
-            },
-            "course_number": "TÖL107G",
-            "credits": 8,
-            "finished": true
+          "number": "TÖL107G",
+          "credits": 8,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Mathematical Structures for Computer Science",
+            "is": "Stærðfræðimynstur"
           },
-          {
-            "course_name": {
-              "en": "Mathematical Structures for Computer Science",
-              "is": "Stærðfræðimynstur"
-            },
-            "course_number": "TÖL104G",
-            "credits": 8,
-            "finished": true
+          "number": "TÖL104G",
+          "credits": 8,
+          "finished": true
+        },
+        {
+          "name": {
+            "en": "Computer Science 1",
+            "is": "Tölvunarfræði 1"
           },
-          {
-            "course_name": {
-              "en": "Computer Science 1",
-              "is": "Tölvunarfræði 1"
-            },
-            "course_number": "TÖL101G",
-            "credits": 6,
-            "finished": true
-          }
-        ]
-      }
-    ]
-  }
+          "number": "TÖL101G",
+          "credits": 6,
+          "finished": true
+        }
+      ]
+    }
+  ]
 }
