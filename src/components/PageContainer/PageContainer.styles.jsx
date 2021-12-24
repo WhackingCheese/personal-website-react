@@ -26,3 +26,19 @@ export const InnerContainer = styled.div`
     padding-top: 61.5px;
   }
 `;
+
+export const PageContainer = styled.div`
+  max-width: 1200px;
+  display: flex;
+  margin: 0 auto;
+
+  @media screen and (max-width: 1200px) {
+    display: block;
+    margin: 0;
+  }
+`;
+
+export const PageContainerInner = styled.div`
+  display: flex;
+  flex-direction: column;
+`;

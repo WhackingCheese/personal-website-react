@@ -30,7 +30,7 @@ export const FooterContainer = styled.div`
 export const TextItem = styled.p`
   font-weight: ${(props) => props.fontWeight};
   font-size: ${(props) => props.fontSize};
-  color: ${(props) => props.color};
+  color: ${(props) => props.theme.primary};
   transition: color 0.5s;
   margin: ${(props) => props.margin ? props.margin : '0 0 10px 0'};
 `;
