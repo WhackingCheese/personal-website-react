@@ -32,10 +32,13 @@ function Navigation() {
       let header = document.getElementsByTagName('header')[0];
       if ((document.body.scrollTop > 25 || document.documentElement.scrollTop > 25) && window.innerWidth > 768) {
         header.style.fontSize = '10px';
+        header.style.boxShadow = '0 1px 10px 0 rgba(0, 0, 0, 0.25)';
       } else {
         if (window.innerWidth < 765) {
+          header.style.boxShadow = '0 1px 10px 0 rgba(0, 0, 0, 0.25)';
           header.style.fontSize = '12px';
         } else {
+          header.style.boxShadow = 'none';
           header.style.fontSize = '14px';
         }
       }
@@ -64,7 +67,7 @@ function Navigation() {
         </NavMenu>
         <NavMenu>
           <NavLink to='#' onClick={changeLang} noactive='true' fontSize='14px'>
-            {lang === 'is' ? 'ENG' : 'ISL'}
+            {lang === 'is' ? 'EN' : 'IS'}
           </NavLink>
           <NavLink to='#' onClick={changeTheme} noactive='true'>
             <Icon size='18px'/>
@@ -84,7 +87,7 @@ function Navigation() {
         </SidebarMenu>
         <SidebarMenu margin={true}>
           <SidebarLink to='#' onClick={changeLang} noactive='true'>
-            {lang === 'is' ? 'ENG' : 'ISL'}
+            {lang === 'is' ? 'EN' : 'IS'}
           </SidebarLink>
           <SidebarLink to='#' onClick={changeTheme} noactive='true'>
             <Icon size='24px'/>

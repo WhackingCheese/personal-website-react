@@ -17,7 +17,7 @@
         "en": "Studied Computer Science at the University of Iceland. I've completed all 180 ECTS units with a first class grade and am currently awaiting my formal graduation which will take place in February of 2022.",
         "is": "Stundaði nám í Tölvunarfræði við Háskóla Íslands. Ég hef lokið öllum 180 ECTS einingum með fyrstu einkunn og er núna að bíða eftir formlegri útskrift sem mun fara fram í Febrúar 2022."
       },
-      "time": [2018, 2021],
+      "time": ["2018", "2021"],
       "img": "/images/hi.png"
     },
     {
@@ -33,7 +33,7 @@
         "en": "Attended the Natural Sciences Program at the Ísafjörður Gymnasium where I received my High school diploma. I started just as the 3 year system got put in place and graduated without problem.",
         "is": "Var á Náttúrufræðibraut í Mennstakólanum á Ísafirði. Var í fyrsta árgangnum til að ganga í gegnum þriggja ára kerfið og útskrifaðist auðveldlega án vandræða."
       },
-      "time": [2015, 2018],
+      "time": ["2015", "2018"],
       "img": "/images/mi.png"
     }
   ]

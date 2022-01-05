@@ -11,9 +11,7 @@ export const Nav = styled.header`
   display: flex;
   justify-content: space-between;
   width: 100vw;
-  transition: background-color 0.5s, font-size 0.5s;
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
-  z-index: 100 !important;
+  transition: background-color 0.5s, font-size 0.5s, box-shadow 1s;
 
   @media screen and (min-width: 1024px) {
     padding: 0 calc((100% - 1024px) / 4);
@@ -74,7 +72,6 @@ export const NavLink = styled(Link)`
 
 export const FillerDiv = styled.div`
   width: 0px;
-  transition: width 0.5s;
 
   @media screen and (min-width: 768px) {
     width: ${(props) => props.posleft === 'true' ? 'calc(64px - 3.125em)' : 'max-content'};

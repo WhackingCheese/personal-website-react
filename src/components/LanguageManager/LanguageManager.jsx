@@ -3,7 +3,7 @@ import Cookies from "universal-cookie/es6";
 
 const cookies = new Cookies();
 const defaultLang = 'en';
-const availablelangs = ['en', 'is'];
+const availableLangs = ['en', 'is'];
 
 function getLangCookie() {
   return cookies.get('lang');
@@ -15,7 +15,7 @@ function setLangCookie(lang) {
 }
 
 let language = getLangCookie();
-if (!language || !availablelangs.includes(language)) {
+if (!language || !availableLangs.includes(language)) {
   setLangCookie(defaultLang);
   language = defaultLang;
 } else {
@@ -44,7 +44,7 @@ function LanguageManager(props) {
   }
   
   return (
-    <LanguageContext.Provider value={[t, lang, changeLang]}>
+    <LanguageContext.Provider value={[t, lang, changeLang, availableLangs]}>
       {props.children}
     </LanguageContext.Provider>
   );

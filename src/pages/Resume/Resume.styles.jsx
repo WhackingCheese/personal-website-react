@@ -3,8 +3,9 @@ import styled from "styled-components";
 export const ResumeContainer = styled.div`
   margin: 40px 0;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   
   & > * {
     padding: 0;
@@ -25,12 +26,14 @@ export const ResumeContainer = styled.div`
 
 export const ResumeInner = styled.div`
   width: 1000px;
+  max-width: 100vw;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
   display: flex;
   justify-content: center;
   border-radius: 5px;
   overflow: hidden;
+  margin-bottom: 40px;
 
   @media print {
     border-radius: 0px;
@@ -43,6 +46,10 @@ export const ResumeInner = styled.div`
 
   @media screen and (max-width: 364px) {
     width: 320px;
+  }
+
+  @media screen and (max-width: 300px) {
+    width: 280px;
   }
 `;
 

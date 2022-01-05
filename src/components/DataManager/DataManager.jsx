@@ -10,9 +10,10 @@ import info from '../../assets/data/info.json';
 import footer from '../../assets/data/footer.json';
 import index from '../../assets/data/index.json';
 import courses from '../../assets/data/courses.json';
+import general from '../../assets/data/general.json';
 
 const links = {
-  'person': {'text': '170999-3479', 'icon': IoPersonSharp},
+  'person': {'text': '17.09.1999', 'icon': IoPersonSharp},
   'phone': {'text': '857-2287', 'href': 'tel:8572287', 'icon': BsTelephoneFill},
   'email': {'text': 'mikolaj.cymcyk@gmail.com', 'href': 'mailto:mikolaj.cymcyk@gmail.com', 'icon': BsEnvelope},
   'github': {'text': 'WhackingCheese', 'href': 'https://github.com/whackingcheese', 'icon': BsGithub},
@@ -31,7 +32,8 @@ const data = {
   'links': links,
   'footer': footer,
   'index': index,
-  'courses': courses
+  'courses': courses,
+  'general': general
 };
 
 const DataContext = createContext();

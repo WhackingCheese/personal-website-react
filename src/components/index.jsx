@@ -5,6 +5,7 @@ import { LanguageContext, LanguageManager } from './LanguageManager/LanguageMana
 import { ThemeContext, ThemeManager } from './ThemeManager/ThemeManager';
 import PageContainer from './PageContainer/PageContainer';
 import { DataManager, DataContext } from './DataManager/DataManager';
+import ResumeDownload from './ResumeDownload/ResumeDownload';
 
 export {
   Navigation,
@@ -16,5 +17,6 @@ export {
   ThemeManager,
   PageContainer,
   DataManager,
-  DataContext
+  DataContext,
+  ResumeDownload
 };

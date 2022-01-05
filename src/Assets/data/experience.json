@@ -15,14 +15,16 @@
             "en": "Secretary and Vice President",
             "is": "Ritari og Varaforseti"
           },
-          "time": [2021, 2022]
+          "time": ["2021"],
+          "current": true
         },
         {
           "title": {
             "en": "Promotional Representative",
             "is": "Kynningarfulltrúi"
           },
-          "time": [2019, 2021]
+          "time": ["2019", "2021"],
+          "current": false
         }
       ],
       "description": {
