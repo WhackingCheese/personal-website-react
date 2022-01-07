@@ -11,6 +11,7 @@ import footer from '../../assets/data/footer.json';
 import index from '../../assets/data/index.json';
 import courses from '../../assets/data/courses.json';
 import general from '../../assets/data/general.json';
+import projects from '../../assets/data/projects.json';
 
 const links = {
   'person': {'text': '17.09.1999', 'icon': IoPersonSharp},
@@ -33,7 +34,8 @@ const data = {
   'footer': footer,
   'index': index,
   'courses': courses,
-  'general': general
+  'general': general,
+  'projects': projects
 };
 
 const DataContext = createContext();

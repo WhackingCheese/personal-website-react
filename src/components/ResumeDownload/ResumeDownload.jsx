@@ -11,12 +11,12 @@ function ResumeDownload() {
 
   return(
     <DownloadButtonContainer>
-      <a href={ResumeIS} target="_blank">
+      <a href={ResumeIS} target="_blank" rel="noreferrer">
         <DownloadButton>
           {t(data.general.cv_download) + ' - IS'}
         </DownloadButton>
       </a>
-      <a href={ResumeEN} target="_blank">
+      <a href={ResumeEN} target="_blank" rel="noreferrer">
         <DownloadButton>
           {t(data.general.cv_download) + ' - EN'}
         </DownloadButton>
