@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { LanguageContext, DataContext } from '../../components';
-import { PortfolioCard, PortfolioCardBody, PortfolioCardButton, PortfolioCardContent, PortfolioCardTitle } from "./Portfolio.styles";
+import { PortfolioCard, PortfolioCardBody, PortfolioCardButton, PortfolioCardButtonContainer, PortfolioCardContent, PortfolioCardContentContainer, PortfolioCardTitle, PortfolioContainer } from "./Portfolio.styles";
 
 function Portfolio() {
 
@@ -11,26 +11,37 @@ function Portfolio() {
     <div>
       {data.projects.projects.map((projects, i) => {
         return (
-          <>
+          <div key={i}>
             <p>{t(projects.type)}</p>
             {projects.projects.map((project, j) => {
               return (
-                <PortfolioCard>
+                <PortfolioCard backgroundImage={process.env.PUBLIC_URL + project.img} key={j}>
                   <PortfolioCardContent>
                     <PortfolioCardTitle>
                       {t(project.title)}
                     </PortfolioCardTitle>
-                    <PortfolioCardBody>
-                      {t(project.description)}
-                    </PortfolioCardBody>
-                    <PortfolioCardButton href='google.com'>
-                      Text
-                    </PortfolioCardButton>
+                    <PortfolioCardContentContainer>
+                      <PortfolioCardBody>
+                        {t(project.description)}
+                      </PortfolioCardBody>
+                      <PortfolioCardButtonContainer>
+                        {project.repo && 
+                          <PortfolioCardButton href={project.repo}>
+                            {t(data.projects.repo_text)}
+                          </PortfolioCardButton>
+                        }
+                        {project.href &&
+                          <PortfolioCardButton href={project.href}>
+                            {t(data.projects.active_link)}
+                          </PortfolioCardButton>
+                        }
+                      </PortfolioCardButtonContainer>
+                    </PortfolioCardContentContainer>
                   </PortfolioCardContent>
                 </PortfolioCard>
               );
             })}
-          </>
+          </div>
         );
       })}
     </div>

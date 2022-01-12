@@ -7,7 +7,7 @@ import {
   NavLink,
   NavMenu,
   CloseIcon,
-  SidebarContainer,
+  Sidebar,
   SidebarMenu,
   SidebarLink,
   FillerDiv
@@ -74,7 +74,7 @@ function Navigation() {
           </NavLink>
         </NavMenu>
       </Nav>
-      <SidebarContainer isOpen={isOpen}>
+      <Sidebar isOpen={isOpen}>
         <CloseIcon onClick={toggleIsOpen}/>
         <SidebarMenu>
           {data.routes.map((route, i) => {
@@ -93,7 +93,7 @@ function Navigation() {
             <Icon size='24px'/>
           </SidebarLink>
         </SidebarMenu>
-      </SidebarContainer>
+      </Sidebar>
     </>
   );
 }

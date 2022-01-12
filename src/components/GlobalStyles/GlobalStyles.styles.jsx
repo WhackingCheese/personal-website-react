@@ -53,4 +53,16 @@ export default createGlobalStyle`
       -webkit-print-color-adjust: exact !important;
     }
   }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0s !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0s !important;
+      scroll-behavior: auto !important;
+      transition-delay: 0s !important;
+    }
+  }
 `;
