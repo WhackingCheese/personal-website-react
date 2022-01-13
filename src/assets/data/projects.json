@@ -191,7 +191,8 @@
           "href": "https://mikolajcymcyk.com",
           "repo": "https://github.com/WhackingCheese/personal-site",
           "img": "img/projects/website.png",
-          "important": true
+          "important": true,
+          "longtext": true
         },
         {
           "title": {

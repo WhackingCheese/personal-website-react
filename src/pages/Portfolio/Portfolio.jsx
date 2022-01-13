@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { LanguageContext, DataContext } from '../../components';
-import { PortfolioCard, PortfolioCardBody, PortfolioCardButton, PortfolioCardButtonContainer, PortfolioCardContent, PortfolioCardContentContainer, PortfolioCardsContainer, PortfolioCardTitle, PortfolioContainer } from "./Portfolio.styles";
+import { PortfolioCard, PortfolioCardBody, PortfolioCardButton, PortfolioCardButtonContainer, PortfolioCardContent, PortfolioCardContentContainer, PortfolioCardsContainer, PortfolioCardTitle, PortfolioProjectType, PortfolioContainer, Testing } from "./Portfolio.styles";
 
 function Portfolio() {
 
@@ -8,11 +8,13 @@ function Portfolio() {
   const [ data ] = useContext(DataContext);
   
   return (
-    <div>
+    <>
       {data.projects.projects.map((projects, i) => {
         return (
-          <div key={i}>
-            <p>{t(projects.type)}</p>
+          <PortfolioContainer key={i}>
+            <PortfolioProjectType>
+              {t(projects.type)}
+            </PortfolioProjectType>
             <PortfolioCardsContainer>
               {projects.projects.map((project, j) => {
                 return (
@@ -20,6 +22,8 @@ function Portfolio() {
                     backgroundImage={process.env.PUBLIC_URL + project.img}
                     key={j}
                     isLarge={project.important}
+                    textLength={t(project.description).length}
+                    longText={project.longtext}
                   >
                     <PortfolioCardContent>
                       <PortfolioCardTitle>
@@ -47,10 +51,10 @@ function Portfolio() {
                 );
               })}
             </PortfolioCardsContainer>
-          </div>
+          </PortfolioContainer>
         );
       })}
-    </div>
+    </>
   );
 }
 

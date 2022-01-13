@@ -1,6 +1,5 @@
 import { useContext } from "react";
 import { DataContext, LanguageContext } from "../../components";
-import { PageContainer, PageContainerInner } from "../../components/PageContainer/PageContainer.styles";
 import {
   CourseCard,
   SemesterItem,

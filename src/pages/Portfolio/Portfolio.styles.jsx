@@ -1,5 +1,17 @@
 import styled from "styled-components";
 
+export const PortfolioContainer = styled.div`
+  margin: 2rem 0;
+`;
+
+export const PortfolioProjectType = styled.h2`
+  margin: 0 calc((100vw - 100%) / 2 * -1);
+  padding: 0.25rem calc((100vw - 100%) / 2 + 2rem);
+  width: 100%;
+  background-color: ${(props) => props.theme.accent};
+  color: white;
+`;
+
 export const PortfolioCardsContainer = styled.div`
   width: 100%;
   display: grid;
@@ -14,8 +26,8 @@ export const PortfolioCardsContainer = styled.div`
 
   @media (max-width: 720px) {
     grid-template-columns: 1fr;
+    padding: 2rem 0;
   }
-
 `;
 
 export const PortfolioCardContent = styled.div`
@@ -46,7 +58,7 @@ export const PortfolioCardTitle = styled.h1`
     content: "";
     position: absolute;
     height: 4px;
-    width: calc(100% + 1.5rem);
+    width: calc(100% + 1.8rem);
     background-color: ${(props) => props.theme.accent};
     left: -1.5rem;
     bottom: -8px;
@@ -116,6 +128,18 @@ export const PortfolioCard = styled.div`
     height: 330px;
   }
 
+  @media (max-width: 500px) {
+    padding-top: ${(props) => props.longText ? '150px' : '0px'};
+  }
+
+  @media (max-width: 360px) {
+    padding-top: ${
+      (props) => props.longText ?
+      `${(props.textLength)*0.1 + 150}px` :
+      `${(props.textLength)*0.1}px`
+    };
+  }
+
   &:hover,
   &:focus {
     & > ${PortfolioCardContent},
@@ -148,8 +172,6 @@ export const PortfolioCard = styled.div`
   }
 
   @media (hover: none) {
-    transform: scale(1.05);
-
     & > ${PortfolioCardContent} ${PortfolioCardTitle}::after {
       transform: scaleX(1);
     }

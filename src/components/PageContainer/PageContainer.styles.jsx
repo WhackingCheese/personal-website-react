@@ -7,6 +7,7 @@ export const WebsiteContainer = styled.div`
   min-height: 100vh;
   background-color: ${(props) => props.theme.bg_primary};
   color: ${(props) => props.theme.primary};
+  overflow: hidden;
 `;
 
 export const InnerContainer = styled.div`
