@@ -34,7 +34,8 @@
           },
           "href": "https://notendur.hi.is/mic5/Bomberman/",
           "repo": "https://github.com/WhackingCheese/Bomberman",
-          "img": "img/projects/bomberman.png"
+          "img": "img/projects/bomberman.png",
+          "important": true
         },
         {
           "title": {
@@ -189,7 +190,8 @@
           },
           "href": "https://mikolajcymcyk.com",
           "repo": "https://github.com/WhackingCheese/personal-site",
-          "img": "img/projects/website.png"
+          "img": "img/projects/website.png",
+          "important": true
         },
         {
           "title": {
@@ -201,7 +203,8 @@
             "is": "Discord spjallbotti með helling af fítusum gert fyrir nokkra þúsund meðlima netsamfélag sem ég bjó til og sá um í nokkur ár sem er nú yfirgefið. Þetta var eitt af mínu fyrstu persónulegum forritunarverkefnum."
           },
           "repo": "https://github.com/WhackingCheese/Barbarian-Bot",
-          "img": "img/projects/barbarianbot.png"
+          "img": "img/projects/barbarianbot.svg",
+          "important": true
         }
       ]
     }

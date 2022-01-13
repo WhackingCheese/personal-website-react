@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { LanguageContext, DataContext } from '../../components';
-import { PortfolioCard, PortfolioCardBody, PortfolioCardButton, PortfolioCardButtonContainer, PortfolioCardContent, PortfolioCardContentContainer, PortfolioCardTitle, PortfolioContainer } from "./Portfolio.styles";
+import { PortfolioCard, PortfolioCardBody, PortfolioCardButton, PortfolioCardButtonContainer, PortfolioCardContent, PortfolioCardContentContainer, PortfolioCardsContainer, PortfolioCardTitle, PortfolioContainer } from "./Portfolio.styles";
 
 function Portfolio() {
 
@@ -13,34 +13,40 @@ function Portfolio() {
         return (
           <div key={i}>
             <p>{t(projects.type)}</p>
-            {projects.projects.map((project, j) => {
-              return (
-                <PortfolioCard backgroundImage={process.env.PUBLIC_URL + project.img} key={j}>
-                  <PortfolioCardContent>
-                    <PortfolioCardTitle>
-                      {t(project.title)}
-                    </PortfolioCardTitle>
-                    <PortfolioCardContentContainer>
-                      <PortfolioCardBody>
-                        {t(project.description)}
-                      </PortfolioCardBody>
-                      <PortfolioCardButtonContainer>
-                        {project.repo && 
-                          <PortfolioCardButton href={project.repo}>
-                            {t(data.projects.repo_text)}
-                          </PortfolioCardButton>
-                        }
-                        {project.href &&
-                          <PortfolioCardButton href={project.href}>
-                            {t(data.projects.active_link)}
-                          </PortfolioCardButton>
-                        }
-                      </PortfolioCardButtonContainer>
-                    </PortfolioCardContentContainer>
-                  </PortfolioCardContent>
-                </PortfolioCard>
-              );
-            })}
+            <PortfolioCardsContainer>
+              {projects.projects.map((project, j) => {
+                return (
+                  <PortfolioCard
+                    backgroundImage={process.env.PUBLIC_URL + project.img}
+                    key={j}
+                    isLarge={project.important}
+                  >
+                    <PortfolioCardContent>
+                      <PortfolioCardTitle>
+                        {t(project.title)}
+                      </PortfolioCardTitle>
+                      <PortfolioCardContentContainer>
+                        <PortfolioCardBody>
+                          {t(project.description)}
+                        </PortfolioCardBody>
+                        <PortfolioCardButtonContainer>
+                          {project.repo && 
+                            <PortfolioCardButton href={project.repo}>
+                              {t(data.projects.repo_text)}
+                            </PortfolioCardButton>
+                          }
+                          {project.href &&
+                            <PortfolioCardButton href={project.href}>
+                              {t(data.projects.active_link)}
+                            </PortfolioCardButton>
+                          }
+                        </PortfolioCardButtonContainer>
+                      </PortfolioCardContentContainer>
+                    </PortfolioCardContent>
+                  </PortfolioCard>
+                );
+              })}
+            </PortfolioCardsContainer>
           </div>
         );
       })}

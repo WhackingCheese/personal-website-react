@@ -27,18 +27,19 @@ export const InnerContainer = styled.div`
   }
 `;
 
-export const PageContainer = styled.div`
+export const PageSizeConstraint = styled.div`
   max-width: 1200px;
+  width: 100%;
   display: flex;
   margin: 0 auto;
 
   @media screen and (max-width: 1200px) {
-    display: block;
     margin: 0;
   }
 `;
 
-export const PageContainerInner = styled.div`
+export const PageSizeConstraintInner = styled.div`
   display: flex;
   flex-direction: column;
+  width: 100%;
 `;

@@ -3,7 +3,7 @@ import Follower from './Follower/Follower';
 import GlobalStyles from './GlobalStyles/GlobalStyles.styles';
 import { LanguageContext, LanguageManager } from './LanguageManager/LanguageManager';
 import { ThemeContext, ThemeManager } from './ThemeManager/ThemeManager';
-import PageContainer from './PageContainer/PageContainer';
+import { PageContainer, PageContainerInner } from './PageContainer/PageContainer';
 import { DataManager, DataContext } from './DataManager/DataManager';
 import ResumeDownload from './ResumeDownload/ResumeDownload';
 
@@ -16,6 +16,7 @@ export {
   ThemeContext,
   ThemeManager,
   PageContainer,
+  PageContainerInner,
   DataManager,
   DataContext,
   ResumeDownload

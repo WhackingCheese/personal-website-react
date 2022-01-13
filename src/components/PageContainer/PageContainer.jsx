@@ -1,6 +1,8 @@
 import {
   WebsiteContainer,
-  InnerContainer
+  InnerContainer,
+  PageSizeConstraint,
+  PageSizeConstraintInner
 } from "./PageContainer.styles";
 
 
@@ -14,4 +16,14 @@ function PageContainer(props) {
   );
 }
 
-export default PageContainer;
+function PageContainerInner(props) {
+  return (
+    <PageSizeConstraint>
+      <PageSizeConstraintInner>
+        {props.children}
+      </PageSizeConstraintInner>
+    </PageSizeConstraint>
+  )
+}
+
+export { PageContainer, PageContainerInner };

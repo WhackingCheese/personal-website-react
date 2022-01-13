@@ -23,8 +23,7 @@ function Courses() {
   const [ data ] = useContext(DataContext);
 
   return (
-    <PageContainer>
-      <PageContainerInner>
+    <>
         <CoursesTitle>
           {t(data.courses.title)}
         </CoursesTitle>
@@ -58,8 +57,7 @@ function Courses() {
             </SemesterContainer>
           );
         })}
-      </PageContainerInner>
-    </PageContainer>
+    </>
   );
 }
 

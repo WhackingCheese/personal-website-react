@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { LanguageContext, DataContext } from '../../components';
 import { TextItem, ItemContainer, ItemContainerInner } from "./index.styles";
+import background from '../../assets/images/background.jpg';
 
 function Index() {
 

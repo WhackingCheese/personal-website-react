@@ -1,5 +1,23 @@
 import styled from "styled-components";
 
+export const PortfolioCardsContainer = styled.div`
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2.5rem;
+  box-sizing: border-box;
+  padding: 2rem;
+
+  @media (max-width: 1024px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 720px) {
+    grid-template-columns: 1fr;
+  }
+
+`;
+
 export const PortfolioCardContent = styled.div`
   padding: 1.5rem;
   background: linear-gradient(
@@ -39,7 +57,7 @@ export const PortfolioCardTitle = styled.h1`
 `;
 
 export const PortfolioCardBody = styled.p`
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 1.6;
   margin-bottom: 1rem;
@@ -75,8 +93,8 @@ export const PortfolioCardButton = styled.a`
 `;
 
 export const PortfolioCard = styled.div`
+  grid-column: ${(props) => props.isLarge ? '1 / -1' : 'auto'};
   color: white;
-  margin: 40px;
   background-color: white;
   border-radius: 0.5rem;
   overflow: hidden;
@@ -91,8 +109,12 @@ export const PortfolioCard = styled.div`
   background-repeat: no-repeat;
   background-position: center center;
   position: relative;
-  height: 400px;
-  width: 350px;
+  height: 300px;
+  width: 100%;
+
+  @media (max-width: 720px) {
+    height: 330px;
+  }
 
   &:hover,
   &:focus {

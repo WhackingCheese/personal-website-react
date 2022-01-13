@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 import { NavLink as Link } from 'react-router-dom';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import { ReactComponent } from '../../assets/images/branding/logo-transparent.svg';
+import { ReactComponent } from '../../assets/images/logo-transparent.svg';
 
 export const Nav = styled.header`
   background-color: ${(props) => props.theme.bg_secondary};
