@@ -19,6 +19,7 @@ export const PortfolioCardsContainer = styled.div`
   grid-gap: 2.5rem;
   box-sizing: border-box;
   padding: 2rem;
+  transition: padding 0.5s;
 
   @media (max-width: 1024px) {
     grid-template-columns: 1fr 1fr;
@@ -26,6 +27,10 @@ export const PortfolioCardsContainer = styled.div`
 
   @media (max-width: 720px) {
     grid-template-columns: 1fr;
+    padding: 2rem 1rem;
+  }
+
+  @media (max-width: 480px) {
     padding: 2rem 0;
   }
 `;
@@ -110,7 +115,7 @@ export const PortfolioCard = styled.div`
   background-color: white;
   border-radius: 0.5rem;
   overflow: hidden;
-  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, border-radius 0.5s;
   background-image:
     linear-gradient(
       rgba(0, 0, 0, 0.1),
@@ -123,6 +128,8 @@ export const PortfolioCard = styled.div`
   position: relative;
   height: 300px;
   width: 100%;
+  border: 1px solid #000;
+  box-sizing: border-box;
 
   @media (max-width: 720px) {
     height: 330px;
@@ -132,12 +139,13 @@ export const PortfolioCard = styled.div`
     padding-top: ${(props) => props.longText ? '150px' : '0px'};
   }
 
+  @media (max-width: 480px) {
+    border-radius: 0;
+  }
+
   @media (max-width: 360px) {
     padding-top: ${
-      (props) => props.longText ?
-      `${(props.textLength)*0.1 + 150}px` :
-      `${(props.textLength)*0.1}px`
-    };
+      (props) => props.longText ? `${props.textLength * 0.5 + 150}px` : `${props.textLength}px`};
   }
 
   &:hover,
