@@ -34,7 +34,7 @@ function Navigation() {
         header.style.fontSize = '10px';
         header.style.boxShadow = '0 1px 10px 0 rgba(0, 0, 0, 0.25)';
       } else {
-        if (window.innerWidth < 765) {
+        if (window.innerWidth < 769) {
           header.style.boxShadow = '0 1px 10px 0 rgba(0, 0, 0, 0.25)';
           header.style.fontSize = '12px';
         } else {

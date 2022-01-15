@@ -1,6 +1,6 @@
 import { createContext } from 'react';
 import { IoPersonSharp } from 'react-icons/io5';
-import { BsTelephoneFill, BsEnvelope, BsGithub, BsLinkedin, BsGlobe2, BsInstagram } from 'react-icons/bs';
+import { BsTelephoneFill, BsEnvelope, BsGithub, BsLinkedin, BsGlobe2, BsInstagram, BsFacebook } from 'react-icons/bs';
 import routes from '../../assets/data/routes.json';
 import references from '../../assets/data/references.json';
 import jobs from '../../assets/data/jobs.json';
@@ -20,7 +20,8 @@ const links = {
   'github': {'text': 'WhackingCheese', 'href': 'https://github.com/whackingcheese', 'icon': BsGithub},
   'linkedin': {'text': 'Mikolaj Cymcyk', 'href': 'https://www.linkedin.com/in/mikolajcymcyk', 'icon': BsLinkedin},
   'website': {'text': 'www.mikolajcymcyk.com', 'href': 'https://www.mikolajcymcyk.com', 'icon': BsGlobe2},
-  'instagram': {'text': 'storostur', 'href': 'https://www.instagram.com/mikkicym/', 'icon': BsInstagram}
+  'instagram': {'text': 'storostur', 'href': 'https://www.instagram.com/mikkicym/', 'icon': BsInstagram},
+  'facebook': {'text': 'Mikolaj Cymcyk', 'href': 'https://www.facebook.com/Mikolaj.Cymcyk/', 'icon': BsFacebook}
 }
 
 const data = {

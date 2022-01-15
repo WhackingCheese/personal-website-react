@@ -163,7 +163,9 @@ export const PortfolioCard = styled.div`
   &:hover,
   &:focus,
   &:focus-within {
-    transform: scale(1.05);
+    @media (hover) {
+      transform: scale(1.05);
+    }
 
     & > ${PortfolioCardContent} ${PortfolioCardTitle}::after {
       transform: scaleX(1);

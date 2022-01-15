@@ -1,5 +1,30 @@
 import styled from "styled-components";
 
+
+
+export const IndexBackground = styled.div`
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  background-image: url(${(props) => props.backgroundImage});
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 80px;
+  box-sizing: border-box;
+`;
+
+
+
+
+
+
+
+
+
+
+
 export const ItemContainer = styled.div`
   display: flex;
   justify-content: center;

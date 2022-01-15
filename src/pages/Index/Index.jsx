@@ -1,7 +1,8 @@
 import { useContext } from "react";
 import { LanguageContext, DataContext } from '../../components';
-import { TextItem, ItemContainer, ItemContainerInner } from "./index.styles";
+import { TextItem, ItemContainer, ItemContainerInner, IndexBackground } from "./index.styles";
 import background from '../../assets/images/background.jpg';
+import { BsEnvelope, BsFacebook, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
 
 function Index() {
 
@@ -9,16 +10,11 @@ function Index() {
   const [ data ] = useContext(DataContext);
   
   return (
-    <ItemContainer>
-      <ItemContainerInner>
-        <TextItem fontSize='24px' fontWeight='600'>
-          {t(data.index.title)}
-        </TextItem>
-        <TextItem fontSize='24px' fontWeight='600'>
-          {t(data.index.subtitle)}
-        </TextItem>
-      </ItemContainerInner>
-    </ItemContainer>
+      <div>
+        <a href={data.links.email.href}>
+          {data.links.email.icon}
+        </a>
+      </div>
   );
 }
 

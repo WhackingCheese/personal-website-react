@@ -111,8 +111,8 @@
             "is": "Út-Að-Borða App"
           },
           "description": {
-            "en": "App connected to the Out-To-Eat Website from Software Project 1 - HBV501G. Tinder styled matching app for groups of people who cannot decide where they want to go out to eat. The app contains multiplayer lobbies and sessions which are stored on firebase and is intended to help groups of people decide where they would like to go out to eat. The app also contains a mobile version of the website where users can browse all restaurants stored in our database.",
-            "is": "App tengt við Út-Að-Borða Vefsíðuna úr Hugbúnaðarverkefni 1 - HBV501G. Tinder stílað samsvörunar app fyrir hópa sem geta ekki ákveðið hvar þau vilja fara út að borða. Appið inniheldur fjölspilunar herbergi og lotur sem eru geymdar á firebase og er ætlað hópum sem ekki geta ákveðið hvar þau vija fara út að borða. Appið inniheldur einnig farsímaútgáfu af vefsíðunni þar sem notendur geta skoðað alla veitingastaði í okkar gagnagrunni."
+            "en": "App connected to the Out-To-Eat Website from Software Project 1 - HBV501G. Tinder styled matching app for groups of people who cannot decide where they want to go out to eat. The app contains multiplayer lobbies and sessions which are stored on firebase. The app also contains a mobile version of the website where users can browse all restaurants stored in our database.",
+            "is": "App tengt við Út-Að-Borða Vefsíðuna úr Hugbúnaðarverkefni 1 - HBV501G. Tinder stílað samsvörunar app fyrir hópa sem geta ekki ákveðið hvar þau vilja fara út að borða. Appið inniheldur fjölspilunar herbergi og lotur sem eru geymdar á firebase. Appið inniheldur einnig farsímaútgáfu af vefsíðunni þar sem notendur geta skoðað alla veitingastaði í okkar gagnagrunni."
           },
           "course": {
             "en": "Software Project 2",

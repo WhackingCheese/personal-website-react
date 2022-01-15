@@ -8,9 +8,9 @@ export const FollowerStyles = styled.div`
   border: 2px solid grey;
   border-radius: 50%;
   pointer-events: none !important;
-  z-index: 100;
+  z-index: 1000;
 
-  @media screen and (max-width: 768px) {
+  @media (hover: none) {
     display: none;
   }
    
