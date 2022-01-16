@@ -1,3 +1,4 @@
+import { useLocation } from "react-router";
 import {
   WebsiteContainer,
   InnerContainer,
@@ -17,13 +18,24 @@ function PageContainer(props) {
 }
 
 function PageContainerInner(props) {
-  return (
-    <PageSizeConstraint>
-      <PageSizeConstraintInner>
-        {props.children}
-      </PageSizeConstraintInner>
-    </PageSizeConstraint>
-  )
+
+  const path = useLocation();
+
+  if(path.pathname !== '/') {
+    return (
+      <PageSizeConstraint>
+        <PageSizeConstraintInner>
+          {props.children}
+        </PageSizeConstraintInner>
+      </PageSizeConstraint>
+    )
+  }
+
+  return(
+    <>
+      {props.children}
+    </>
+  );
 }
 
 export { PageContainer, PageContainerInner };

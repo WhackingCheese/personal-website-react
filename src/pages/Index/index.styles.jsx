@@ -1,5 +1,49 @@
 import styled from "styled-components";
 
+export const IconContainer = styled.div`
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  padding: 5vh 6.5vw;
+  gap: 2rem;
+  box-sizing: border-box;
+  
+  @media (max-width: 480px) {
+    flex-direction: column;
+    gap: 1rem;
+  }
+`;
+
+export const IconLink = styled.a`
+  color: white;
+  height: max-content;
+  height: max-content;
+  display: block;
+  text-decoration: none;
+  transition: color 0.5s;
+
+  & > * {
+    display: block;
+  }
+
+  &:hover {
+    color: ${(props) => props.theme.accent};
+  }
+`;
+
+export const ProfileImage = styled.img`
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 60%;
+  padding-right: 6.5vw
+`;
+
+
+
+
+
+
 
 
 export const IndexBackground = styled.div`
@@ -7,7 +51,7 @@ export const IndexBackground = styled.div`
   height: 100vh;
   top: 0;
   position: absolute;
-  background-image: url(${(props) => props.backgroundImage});
+  background-image: url(${(props) => props.image});
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
