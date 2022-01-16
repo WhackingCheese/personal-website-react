@@ -11,7 +11,7 @@ export const Nav = styled.header`
   display: flex;
   justify-content: space-between;
   width: 100vw;
-  transition: background-color 0.5s, font-size 0.5s, box-shadow 1s;
+  transition: background-color 0.5s, font-size 0.5s;
   z-index: 100;
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
 

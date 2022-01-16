@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { LanguageContext, DataContext } from '../../components';
-import { PortfolioCard, PortfolioCardBody, PortfolioCardButton, PortfolioCardButtonContainer, PortfolioCardContent, PortfolioCardContentContainer, PortfolioCardsContainer, PortfolioCardTitle, PortfolioProjectType, PortfolioContainer, Testing } from "./Portfolio.styles";
+import { PortfolioCard, PortfolioCardBody, PortfolioCardButton, PortfolioCardButtonContainer, PortfolioCardContent, PortfolioCardContentContainer, PortfolioCardsContainer, PortfolioCardTitle, PortfolioProjectType, PortfolioContainer } from "./Portfolio.styles";
 
 function Portfolio() {
 

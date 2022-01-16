@@ -1,8 +1,6 @@
 import { useContext } from "react";
 import { LanguageContext, DataContext } from '../../components';
-import { TextItem, ItemContainer, IconContainer, ItemContainerInner, IconLink, IndexBackground, ProfileImage } from "./index.styles";
-import background from '../../assets/images/background.jpg';
-import profileTransparent from '../../assets/images/profile-transparent.png';
+import { IconContainer, IconLink, IndexContainer, IndexSlant, ResumeButton, IndexInfoContainer, IndexTitle, IndexSubtitle, IndexPrefix, Temp } from "./index.styles";
 
 function Index() {
 
@@ -10,18 +8,42 @@ function Index() {
   const [ data ] = useContext(DataContext);
   
   return (
-    <IndexBackground image={background}>
-      <ItemContainer>
-        <ItemContainerInner>
-          <TextItem fontSize='24px' fontWeight='600'>
-            {t(data.index.title)}
-          </TextItem>
-          <TextItem fontSize='24px' fontWeight='600'>
-            {t(data.index.subtitle)}
-          </TextItem>
-        </ItemContainerInner>
-      </ItemContainer>
-      <ProfileImage src={profileTransparent}/>
+    <>
+    <Temp/>
+    <IndexSlant/>
+    <IndexContainer>
+      <IndexInfoContainer>
+        <IndexPrefix>
+          {t(data.index.prefix)}
+        </IndexPrefix>
+        <div>
+          <IndexTitle>
+              {t(data.index.title)}
+          </IndexTitle>
+          <IndexTitle accented={true}>
+              {t(data.index.name[0])}
+          </IndexTitle>
+          <IndexTitle>
+              {t(data.index.name[1])}
+          </IndexTitle>
+        </div>
+        <IndexSubtitle>
+          {t(data.index.subtitle)}
+        </IndexSubtitle>
+        <a href='/resume'>
+          <ResumeButton>
+            {t(data.index.resume_button)}
+          </ResumeButton>
+        </a>
+      </IndexInfoContainer>
+    </IndexContainer>
+
+
+
+
+
+
+
       <IconContainer>
         {data.index.icons.map((link, i) => {
           let Elm = data.links[link].icon;
@@ -32,7 +54,7 @@ function Index() {
           )
         })}
       </IconContainer>
-    </IndexBackground>
+    </>
   );
 }
 

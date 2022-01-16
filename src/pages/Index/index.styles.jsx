@@ -7,15 +7,16 @@ export const IconContainer = styled.div`
   padding: 5vh 6.5vw;
   gap: 2rem;
   box-sizing: border-box;
+  transition: gap 0.5s;
+  z-index: 1;
   
   @media (max-width: 480px) {
-    flex-direction: column;
     gap: 1rem;
   }
 `;
 
 export const IconLink = styled.a`
-  color: white;
+  color: ${(props) => props.theme.primary};
   height: max-content;
   height: max-content;
   display: block;
@@ -31,32 +32,14 @@ export const IconLink = styled.a`
   }
 `;
 
-export const ProfileImage = styled.img`
+
+
+export const Temp = styled.div`
   position: absolute;
-  bottom: 0;
-  right: 0;
-  height: 60%;
-  padding-right: 6.5vw
-`;
-
-
-
-
-
-
-
-
-export const IndexBackground = styled.div`
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  position: absolute;
-  background-image: url(${(props) => props.image});
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  padding-top: 80px;
-  box-sizing: border-box;
+  left: 50%;
+  width: 1px;
+  height: 100%;
+  background-color: pink;
 `;
 
 
@@ -69,34 +52,81 @@ export const IndexBackground = styled.div`
 
 
 
-export const ItemContainer = styled.div`
+
+
+
+
+
+
+export const IndexContainer = styled.div`
+  flex-grow: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
 `;
 
-export const ItemContainerInner = styled.div`
-  display: flex;
-  flex-direction: column;
+export const IndexInfoContainer = styled.div`
+  max-width: 800px;
+  width: fit-content;
 `;
 
-export const TextItem = styled.p`
-  @keyframes textLoad {
-    0% {
-      opacity: 0%;
-      left: -100px;
-    }
-    30% {
-      opacity: 100%;
-    }
-    100% {
-      left: 0px;
-    }
-  };
-  position: relative;
+export const ResumeButton = styled.button`
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: ${(props) => props.theme.accent};
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.65rem 2rem;
+  transition: background-color 0.5s, color 0.5s;
+
+  &:hover {
+    background-color: ${(props) => props.theme.terciary};
+    color: ${(props) => props.theme.accent};
+  }
+`;
+
+export const IndexPrefix = styled.p`
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 3px;
+  margin-bottom: 1.5rem;
+  transition: color 0.5s;
+
+  &::before {
+    margin-right: 1rem;
+    content: "";
+    height: 1px;
+    width: 50px;
+    background-color: grey;
+    display: inline-block;
+    position: relative;
+    transform: translateY(-500%);
+  }
+`;
+
+export const IndexTitle = styled.h1`
+  color: ${(props) => props.accented ? props.theme.accent : props.theme.primary};
+  display: inline-block;
+  white-space: pre;
+  font-size: 2.5rem;
+  transition: color 0.5s;
+`;
+
+export const IndexSubtitle = styled.h2`
+  font-size: 1rem;
+  font-weight: 400;
   color: ${(props) => props.theme.primary};
-  font-size: ${(props) => props.fontSize ? props.fontSize : '16px'};
-  animation: textLoad ease-in-out 1s;
-  font-weight: ${(props) => props.fontWeight ? props.fontWeight : '400'};
+  margin: 1rem 0 2.5rem 0;
+  transition: color 0.5s;
+`;
+
+export const IndexSlant = styled.div`
+  width: 40%;
+  height: 150%;
+  background-color: ${(props) => props.theme.bg_terciary};
+  position: absolute;
+  transform: translate(-25%, -10%) rotate(-15deg);
+  transition: background-color 0.5s;
+  z-index: 1;
 `;

@@ -18,6 +18,8 @@ export const InnerContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  position: relative;
+  overflow: hidden;
   
   @media print {
     padding-top: 0;

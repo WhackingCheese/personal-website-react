@@ -1,11 +1,23 @@
 {
-  "title": {
-    "en": "Hi!",
-    "is": "Hæ!"
+  "prefix": {
+    "en": "Hello",
+    "is": "Hæ"
   },
+  "title": {
+    "en": "I'm",
+    "is": "Ég er"
+  },
+  "name": [
+    " Mikolaj",
+    " Cymcyk"
+  ],
   "subtitle": {
-    "en": "I'm Mikolaj Cymcyk",
-    "is": "Ég er Mikolaj Cymcyk"
+    "en": "Welcome to my website!",
+    "is": "Velkomin á vefsíðuna mína!"
+  },
+  "resume_button": {
+    "en": "Resume",
+    "is": "Ferilskrá"
   },
   "icons": [
     "linkedin",

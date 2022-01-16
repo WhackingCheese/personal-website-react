@@ -31,7 +31,7 @@ function PageContainerInner(props) {
     )
   }
 
-  return(
+  return (
     <>
       {props.children}
     </>
