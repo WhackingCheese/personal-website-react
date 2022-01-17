@@ -12,6 +12,7 @@ import index from '../../assets/data/index.json';
 import courses from '../../assets/data/courses.json';
 import general from '../../assets/data/general.json';
 import projects from '../../assets/data/projects.json';
+import notfound from '../../assets/data/notfound.json';
 
 const links = {
   'person': {'text': '17.09.1999', 'icon': IoPersonSharp},
@@ -36,7 +37,8 @@ const data = {
   'index': index,
   'courses': courses,
   'general': general,
-  'projects': projects
+  'projects': projects,
+  'notfound': notfound
 };
 
 const DataContext = createContext();

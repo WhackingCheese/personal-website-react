@@ -35,6 +35,7 @@ export const PageSizeConstraint = styled.div`
   width: 100%;
   display: flex;
   margin: 0 auto;
+  flex-grow: 1;
 
   @media screen and (max-width: 1200px) {
     margin: 0;
@@ -45,4 +46,5 @@ export const PageSizeConstraintInner = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
+  flex-grow: 1;
 `;

@@ -106,6 +106,11 @@ export const Sidebar = styled.aside`
   @media print {
     display: none;
   }
+  
+
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+  }
 `;
 
 export const CloseIcon = styled(AiOutlineClose)`
@@ -132,7 +137,6 @@ export const SidebarMenu = styled.div`
 `;
 
 export const SidebarLink = styled(Link)`
-  font-size: 16px;
   height: 80px;
   display: flex;
   align-items: center;
