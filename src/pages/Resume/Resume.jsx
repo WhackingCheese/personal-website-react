@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { DataContext, LanguageContext, ResumeDownload } from "../../components";
-import { SegmentHeader, InfoContainer, TextItem, ImageItem, ResumeContainer, ResumeInner, ResumeSplit, LineBreak, SkillMeter, SkillMeterInner, SegmentContainer, FlexContainer, ResumeInnerContainer, Link, SkillContainer, SkillsContainer, IconFlexContainer, LinkFlexContainer } from './Resume.styles';
+import { SegmentHeader, InfoContainer, TextItem, ImageItem, ResumeContainer, ResumeInner, ResumeSplit, LineBreak, SkillMeter, SkillMeterInner, SegmentContainer, FlexContainer, ResumeInnerContainer, Link, SkillContainer, SkillsContainer, IconFlexContainer, LinkFlexContainer, ResumeHeader, ResumeHeaderContainer } from './Resume.styles';
 import { BsEnvelope, BsTelephone } from 'react-icons/bs';
 import profile from '../../assets/images/profile.png';
 
@@ -11,6 +11,11 @@ function Resume() {
   
   return (
     <ResumeContainer>
+      <ResumeHeaderContainer>
+        <ResumeHeader>
+          {t(data.routes.at(-1).name)}
+        </ResumeHeader>
+      </ResumeHeaderContainer>
       <ResumeInner>
         <ResumeSplit backgroundColor='#555555' width='300px' boxShadow='true'>
           <InfoContainer>

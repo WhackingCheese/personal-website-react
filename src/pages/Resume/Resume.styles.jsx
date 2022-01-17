@@ -1,4 +1,40 @@
+import { BsTypeBold } from "react-icons/bs";
 import styled from "styled-components";
+
+export const ResumeHeaderContainer = styled.div`
+    width: min(1000px, 100%);
+
+
+  @media screen and (max-width: 700px) {
+    width: min(500px, 100%);
+  }
+
+  @media screen and (max-width: 364px) {
+    width: min(320px, 100%);
+  }
+
+  @media screen and (max-width: 300px) {
+    width: min(280px, 100%);
+  }
+`;
+
+export const ResumeHeader = styled.h1`
+  width: fit-content;
+  margin-bottom: 2rem !important;
+  position: relative;
+  color: ${(props) => props.theme.primary};
+  transition: color 0.5s;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: calc(100% + 12px);
+    height: 4px;
+    left: 0;
+    bottom: -6px;
+    background-color: ${(props) => props.theme.accent};
+  }
+`;
 
 export const ResumeContainer = styled.div`
   margin: 40px 0;

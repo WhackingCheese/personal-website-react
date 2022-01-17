@@ -15,10 +15,11 @@
     "en": "Welcome to my website!",
     "is": "Velkomin á vefsíðuna mína!"
   },
-  "resume_button": {
-    "en": "Resume",
-    "is": "Ferilskrá"
+  "button": {
+    "en": "About Me",
+    "is": "Um Mig"
   },
+  "button_ref": "/about",
   "icons": [
     "linkedin",
     "github",

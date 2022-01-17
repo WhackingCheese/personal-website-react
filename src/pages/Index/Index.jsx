@@ -28,9 +28,9 @@ function Index() {
           <IndexSubtitle>
             {t(data.index.subtitle)}
           </IndexSubtitle>
-          <a href='/resume'>
+          <a href={data.index.button_ref}>
             <ResumeButton>
-              {t(data.index.resume_button)}
+              {t(data.index.button)}
             </ResumeButton>
           </a>
         </IndexInfoContainer>
