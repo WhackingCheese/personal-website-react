@@ -1,82 +1,41 @@
-import { AiOutlineCheck, AiOutlineClose } from "react-icons/ai";
 import styled from "styled-components";
 
-export const SemesterContainer = styled.div`
-  margin-bottom: 40px;
+export const CoursesContainer = styled.div`
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
 `;
 
 export const SemesterHeading = styled.h3`
   display: flex;
   font-size: 24px;
-  padding: 1rem;
-  justify-content: center;
+  margin: 1em;
   transition: color 0.5s;
-`;
+  position: relative;
+  width: fit-content;
 
-export const SemesterItem = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-`;
-
-export const CourseCard = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-width: 350px;
-  margin: 1rem;
-  background-color: ${(props) => props.theme.secondary};
-  color: ${(props) => props.theme.bg_secondary};
-  padding: 1rem;
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
-  flex: 1;
-  box-sizing: border-box;
-  border-radius: 5px;
-  transition: color 0.5s, background-color 0.5s;
-
-  @media screen and (max-width: 320px) {
-    min-width: 280px;
+  &::after {
+    content: "";
+    position: absolute;
+    width: calc(100% + 0.5rem);
+    height: 4px;
+    bottom: -6px;
+    background-color: ${(props) => props.theme.accent};
   }
 
-  &:hover {
-    background-color: ${(props) => props.theme.bg_secondary};
-    color: ${(props) => props.theme.secondary};
+  
+  @media (max-width: 700px) {
+    margin: 1em auto;
+    text-align: center;
   }
-`;
-
-export const CardHeader = styled.div`
-  font-size: 18px;
-  display: flex;
-  justify-content: space-between;
-  font-weight: 600;
-  margin-bottom: 10px;
-`;
-
-export const CardContent = styled.div`
-  font-size: 16px;
-  display: flex;
-  justify-content: space-between;
-`;
-
-export const CardPoints = styled.div`
-  width: 30px;
-  text-align: center;
-`;
-
-export const Finished = styled(AiOutlineCheck)`
-  height: 30px;
-  width: 30px;
-`;
-
-export const NotFinished = styled(AiOutlineClose)`
-  height: 30px;
-  width: 30px;
 `;
 
 export const CoursesTitle = styled.h2`
-  color: ${(props) => props.theme.primary};
+  color: white;
   text-align: center;
-  margin: 20px 10px;
+  margin: 0 calc((100vw - 100%) / 2 * -1);
+  background-color: ${(props) => props.theme.accent};
+  padding: 0.25em calc((100vw - 100%) / 2);
   font-size: 24px;
   transition: color 0.5s;
 `;
@@ -84,8 +43,63 @@ export const CoursesTitle = styled.h2`
 export const CoursesSubtitle = styled.h3`
   color: ${(props) => props.theme.primary};
   text-align: center;
-  margin: 0 10px;
+  margin: 1rem 0;
   font-weight: 400;
   margin-bottom: 15px;
   transition: color 0.5s;
+`;
+
+export const CourseItem = styled.div`
+  margin: 1rem;
+  position: relative;
+  margin-left: 2.5em;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: ${(props) => props.theme.primary};
+    top: 50%;
+    left: -1.5em;
+    transform: translateY(-50%);
+    border-radius: 100%;
+  }
+`;
+
+export const CourseItemName = styled.p`
+  font-weight: 700;
+  font-size: 1em;
+`;
+
+export const CourseItemNumber = styled.p`
+  font-size: 1em;
+`;
+
+export const SemesterItem = styled.div`
+  display: block;
+`;
+
+export const SemestersContainer = styled.div`
+  padding-left: 3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2.5rem;
+
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+    padding-left: 0;
+  }
+`;
+
+export const SemesterContainer = styled.div`
+  width: fit-content;
+
+  @media (max-width: 700px) {
+    margin: 0 auto;
+  }
 `;

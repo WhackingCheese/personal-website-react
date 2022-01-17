@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { DataContext, LanguageContext } from "../../components";
-import { CourseCard, SemesterItem, SemesterHeading, SemesterContainer, Finished, NotFinished, CardHeader, CardContent, CardPoints, CoursesTitle, CoursesSubtitle } from "./Courses.styles";
+import { SemesterItem, SemesterHeading, SemesterContainer, CoursesTitle, CoursesContainer, SemestersContainer, CourseItem, CourseItemName, CourseItemNumber } from "./Courses.styles";
 
 function Courses() {
 
@@ -8,13 +8,11 @@ function Courses() {
   const [ data ] = useContext(DataContext);
 
   return (
-    <>
-        <CoursesTitle>
-          {t(data.courses.title)}
-        </CoursesTitle>
-        <CoursesSubtitle>
-          {t(data.courses.subtitle)}
-        </CoursesSubtitle>
+    <CoursesContainer>
+      <CoursesTitle>
+        {t(data.courses.title)}
+      </CoursesTitle>
+      <SemestersContainer>
         {data.courses.courses.map((semester, i) => {
           return (
             <SemesterContainer key={i}>
@@ -24,25 +22,22 @@ function Courses() {
               <SemesterItem>
                 {semester.courses.map((course, j) => {
                   return (
-                    <CourseCard key={j}>
-                      <CardHeader>
-                        <p>{t(course.name)}</p>
-                        {course.finished ? <Finished/> : <NotFinished/>}
-                      </CardHeader>
-                      <CardContent>
-                        <p>{t(course.number)}</p>
-                        <CardPoints>
-                          {t(course.credits)}
-                        </CardPoints>
-                      </CardContent>
-                    </CourseCard>
+                    <CourseItem>
+                      <CourseItemName>
+                        {t(course.number)}
+                      </CourseItemName>
+                      <CourseItemNumber>
+                        {t(course.name)}
+                      </CourseItemNumber>
+                    </CourseItem>
                   );
                 })}
               </SemesterItem>
             </SemesterContainer>
           );
         })}
-    </>
+      </SemestersContainer>
+    </CoursesContainer>
   );
 }
 

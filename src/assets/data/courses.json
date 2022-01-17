@@ -1,11 +1,7 @@
 {
   "title": {
-    "en": "Overview of completed courses towards my Computer Science BS at the University of Iceland.",
-    "is": "Yfirlit á loknum áföngum fyrir Tölvunarfræði BS hjá Háskóla Íslands."
-  },
-  "subtitle": {
-    "en": "I've completed all 180 ECTS units with a first class grade and am currently awaiting my formal graduation which will take place in February of 2022.",
-    "is": "Ég hef lokið öllum 180 ECTS einingum með fyrstu einkunn og er núna að bíða eftir formlegri útskrift sem mun fara fram í Febrúar 2022."
+    "en": "Overview of completed courses towards my Computer Science BS at the University of Iceland",
+    "is": "Yfirlit á loknum áföngum fyrir Tölvunarfræði BS hjá Háskóla Íslands"
   },
   "courses": [
     {
