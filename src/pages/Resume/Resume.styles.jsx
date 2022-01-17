@@ -54,7 +54,7 @@ export const ResumeInner = styled.div`
 `;
 
 export const ResumeSplit = styled.div`
-  box-shadow: ${(props) => props.boxShadow === 'true' ? '0 1px 10px 0 rgba(0, 0, 0, 0.25);' : 'none'};
+  box-shadow: ${(props) => props.boxShadow === 'true' ? '0 1px 10px 0 rgba(0, 0, 0, 0.15);' : 'none'};
   width: ${(props) => props.width};
   background-color: ${(props) => props.backgroundColor};
   box-sizing: border-box;

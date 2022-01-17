@@ -1,17 +1,6 @@
 import { useContext, useState } from 'react';
 import { DataContext, LanguageContext, ThemeContext } from '../';
-import {
-  Nav,
-  Burger,
-  WebsiteLogo,
-  NavLink,
-  NavMenu,
-  CloseIcon,
-  Sidebar,
-  SidebarMenu,
-  SidebarLink,
-  FillerDiv
-} from './Navigation.styles';
+import { Nav, Burger, WebsiteLogo, NavLink, NavMenu, CloseIcon, Sidebar, SidebarMenu, SidebarLink, FillerDiv } from './Navigation.styles';
 import { BsMoonStars, BsSun } from 'react-icons/bs';
 
 function Navigation() {

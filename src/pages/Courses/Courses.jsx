@@ -1,20 +1,6 @@
 import { useContext } from "react";
 import { DataContext, LanguageContext } from "../../components";
-import {
-  CourseCard,
-  SemesterItem,
-  SemesterHeading,
-  SemesterContainer,
-  Finished,
-  NotFinished,
-  CardHeader,
-  CardContent,
-  CardPoints,
-  CoursesTitle,
-  CoursesSubtitle
-} from "./Courses.styles";
-
-
+import { CourseCard, SemesterItem, SemesterHeading, SemesterContainer, Finished, NotFinished, CardHeader, CardContent, CardPoints, CoursesTitle, CoursesSubtitle } from "./Courses.styles";
 
 function Courses() {
 

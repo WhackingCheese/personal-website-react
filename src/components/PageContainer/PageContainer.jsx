@@ -1,11 +1,5 @@
 import { useLocation } from "react-router";
-import {
-  WebsiteContainer,
-  InnerContainer,
-  PageSizeConstraint,
-  PageSizeConstraintInner
-} from "./PageContainer.styles";
-
+import { WebsiteContainer, InnerContainer, PageSizeConstraint, PageSizeConstraintInner } from "./PageContainer.styles";
 
 function PageContainer(props) {
   return (

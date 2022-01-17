@@ -1,14 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import {
-  Follower,
-  GlobalStyles,
-  Navigation,
-  LanguageManager,
-  ThemeManager,
-  PageContainer,
-  DataManager,
-  PageContainerInner
-} from './components';
+import { Follower, GlobalStyles, Navigation, LanguageManager, ThemeManager, PageContainer, DataManager, PageContainerInner } from './components';
 import Footer from './components/Footer/Footer';
 import { About, Index, Portfolio, Resume, NotFound, Courses } from './pages';
 

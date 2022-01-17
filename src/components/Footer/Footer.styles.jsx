@@ -6,7 +6,7 @@ export const StyledFooter = styled.footer`
   display: flex;
   flex-direction: column;
   transition: background-color 0.5s;
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
 
   @media print {
     display: none;

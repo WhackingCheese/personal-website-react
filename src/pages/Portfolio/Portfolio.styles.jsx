@@ -130,6 +130,7 @@ export const PortfolioCard = styled.div`
   width: 100%;
   border: 1px solid #000;
   box-sizing: border-box;
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
 
   @media (max-width: 720px) {
     height: 330px;

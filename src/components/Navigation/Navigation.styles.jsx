@@ -1,5 +1,4 @@
 import styled from "styled-components";
-
 import { NavLink as Link } from 'react-router-dom';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import { ReactComponent } from '../../assets/images/logo-transparent.svg';
@@ -13,7 +12,7 @@ export const Nav = styled.header`
   width: 100vw;
   transition: background-color 0.5s, font-size 0.5s;
   z-index: 100;
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
 
   @media screen and (min-width: 1024px) {
     padding: 0 calc((100% - 1024px) / 4);
@@ -95,7 +94,7 @@ export const Sidebar = styled.aside`
   width: 100%;
   height: 100%;
   background-color: ${(props) => props.theme.bg_secondary};
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;

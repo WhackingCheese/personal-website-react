@@ -28,7 +28,7 @@ export const CourseCard = styled.div`
   background-color: ${(props) => props.theme.secondary};
   color: ${(props) => props.theme.bg_secondary};
   padding: 1rem;
-  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
   flex: 1;
   box-sizing: border-box;
   border-radius: 5px;

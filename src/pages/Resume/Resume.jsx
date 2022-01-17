@@ -1,26 +1,6 @@
 import { useContext } from "react";
 import { DataContext, LanguageContext, ResumeDownload } from "../../components";
-import {
-  SegmentHeader,
-  InfoContainer,
-  TextItem,
-  ImageItem,
-  ResumeContainer,
-  ResumeInner,
-  ResumeSplit,
-  LineBreak,
-  SkillMeter,
-  SkillMeterInner,
-  SegmentContainer,
-  FlexContainer,
-  ResumeInnerContainer,
-  Link,
-  SkillContainer,
-  SkillsContainer,
-  IconFlexContainer,
-  LinkFlexContainer
-} from './Resume.styles';
-
+import { SegmentHeader, InfoContainer, TextItem, ImageItem, ResumeContainer, ResumeInner, ResumeSplit, LineBreak, SkillMeter, SkillMeterInner, SegmentContainer, FlexContainer, ResumeInnerContainer, Link, SkillContainer, SkillsContainer, IconFlexContainer, LinkFlexContainer } from './Resume.styles';
 import { BsEnvelope, BsTelephone } from 'react-icons/bs';
 import profile from '../../assets/images/profile.png';
 

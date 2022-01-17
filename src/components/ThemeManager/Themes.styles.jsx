@@ -1,4 +1,3 @@
-
 const themeLight = {
   'primary': '#030303',
   'secondary': '#606060',

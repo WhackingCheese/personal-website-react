@@ -7,17 +7,4 @@ import { PageContainer, PageContainerInner } from './PageContainer/PageContainer
 import { DataManager, DataContext } from './DataManager/DataManager';
 import ResumeDownload from './ResumeDownload/ResumeDownload';
 
-export {
-  Navigation,
-  Follower,
-  GlobalStyles,
-  LanguageContext,
-  LanguageManager,
-  ThemeContext,
-  ThemeManager,
-  PageContainer,
-  PageContainerInner,
-  DataManager,
-  DataContext,
-  ResumeDownload
-};
+export { Navigation, Follower, GlobalStyles, LanguageContext, LanguageManager, ThemeContext, ThemeManager, PageContainer, PageContainerInner, DataManager, DataContext, ResumeDownload };
