@@ -88,6 +88,7 @@ export const SemestersContainer = styled.div`
 
   @media (max-width: 900px) {
     grid-template-columns: 1fr 1fr;
+    padding-left: 5em;
   }
 
   @media (max-width: 700px) {

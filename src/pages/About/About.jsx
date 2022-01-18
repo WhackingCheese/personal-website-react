@@ -1,8 +1,10 @@
+import { Section } from "./About.styles";
+
 function About() {
   return (
-    <p>
-      About
-    </p>
+    <Section sectionNum={0}>
+      Test
+    </Section>
   );
 }
 
