@@ -5,7 +5,6 @@ export const AboutContainer = styled.div`
 `;
 
 export const Section = styled.div`
-  height: 600px;
   width: 100%;
   transition: background-color 0.5s;
   position: relative;
@@ -27,6 +26,7 @@ export const SectionInner = styled.div`
   width: 100%;
   height: 100%;
   padding: 5rem 2rem;
+  padding-bottom: 0;
   box-sizing: border-box;
   position: relative;
 `;
@@ -36,58 +36,90 @@ export const AboutMain = styled.div`
   width: 100%;
   display: flex;
   flex-direction: row;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+  }
+
+  @media (max-width: 900px) {
+    flex-direction: column-reverse;
+  }
 `;
 
 export const AboutMainInner = styled.div`
-  width: 50%;
-  height: 100%;
   display: flex;
-  justify-content: center;
 
   &:nth-child(1) {
+    justify-content: flex-start;
+    width: 30%;
     align-items: flex-end;
+
+    @media (max-width: 900px) {
+      width: 100%;
+      justify-content: center;
+    }
   }
 
   &:nth-child(2) {
+    margin-left: 2em;
+    justify-content: center;
+    width: 70%;
     justify-content: flex-start;
-    height: auto;
+    margin-bottom: 2em;
+
+    @media (max-width: 900px) {
+      width: 100%;
+      margin-left: 0;
+    }
   }
 `;
 
 export const AboutMainContainer = styled.div`
-  margin: 2em;
-  margin-left: 6em;
+  display: block;
 `;
 
 export const AboutMainPicture = styled.img`
-  height: 400px;
-  transform: translateY(5em);
+  height: 500px;
   display: block;
   position: relative;
+
+  @media (max-width: 900px) {
+    object-fit: cover;
+    object-position: top;
+    height: 250px;
+    width: 250px;
+  }
 `;
 
 export const AboutMainHeader = styled.h1`
   font-size: 2em;
   font-weight: 700;
   transition: color 0.5s;
-  color: ${(props) => props.theme.primary};
+  color: ${(props) => props.accented ? props.theme.accent : props.theme.primary};
+  display: inline-block;
+  white-space: pre;
   position: relative;
-  margin-left: 50px;
   margin-bottom: 0.5em;
 
-  &::before {
-    content: "";
-    height: 2px;
-    width: 35px;
-    transition: background-color 0.5s;
-    background-color: ${(props) => props.theme.secondary};
-    position: absolute;
-    top: 50%;
-    left: -50px;
+  &:nth-child(1) {
+    margin-left: 50px;
+
+    &::before {
+      content: "";
+      height: 2px;
+      width: 35px;
+      transition: background-color 0.5s;
+      background-color: ${(props) => props.theme.secondary};
+      position: absolute;
+      top: 50%;
+      left: -50px;
+    }
   }
 `;
 
 export const AboutMainText = styled.p`
   text-align: justify;
   margin-bottom: 0.5em;
+  transition: color 0.5s;
+  color: ${(props) => props.theme.primary};
 `;

@@ -20,9 +20,14 @@ function About() {
             </AboutMainInner>
             <AboutMainInner>
               <AboutMainContainer>
-                <AboutMainHeader>
-                  {t(data.about.about_main.header)}
-                </AboutMainHeader>
+                <div>
+                  <AboutMainHeader tail={true}>
+                    {t(data.about.about_main.header).split(" ")[0]}
+                  </AboutMainHeader>
+                  <AboutMainHeader accented={true}>
+                    {' ' + t(data.about.about_main.header).split(" ")[1]}
+                  </AboutMainHeader>
+                </div>
                 {data.about.about_main.text.map((textItem, i) => {
                   return (
                     <AboutMainText key={i}>
@@ -33,13 +38,6 @@ function About() {
               </AboutMainContainer>
             </AboutMainInner>
           </AboutMain>
-        </SectionInner>
-      </Section>
-      <Section>
-        <SectionInner>
-          <p>
-          test test tes t test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test 
-          </p>
         </SectionInner>
       </Section>
     </AboutContainer>

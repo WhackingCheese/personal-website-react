@@ -15,6 +15,10 @@ export const ResumeHeaderContainer = styled.div`
   @media screen and (max-width: 300px) {
     width: min(280px, 100%);
   }
+
+  @media print {
+    display: none;
+  }
 `;
 
 export const ResumeHeader = styled.h1`
@@ -47,6 +51,7 @@ export const ResumeContainer = styled.div`
     padding: 0;
     margin: 0;
   }
+
   
   @media print {
     padding: 0;
@@ -57,10 +62,6 @@ export const ResumeContainer = styled.div`
 
   @media screen and (max-width: 700px) {
     width: 100%;
-  }
-
-  @media (min-width: 701px) and (max-width: 1040px) {
-    margin: 40px; 20px;
   }
 `;
 
