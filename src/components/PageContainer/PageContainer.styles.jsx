@@ -7,7 +7,6 @@ export const WebsiteContainer = styled.div`
   min-height: 100vh;
   background-color: ${(props) => props.theme.bg_primary};
   color: ${(props) => props.theme.primary};
-  overflow: hidden;
 `;
 
 export const InnerContainer = styled.div`
@@ -19,7 +18,6 @@ export const InnerContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  overflow: hidden;
   
   @media print {
     padding-top: 0;

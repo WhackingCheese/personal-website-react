@@ -57,7 +57,10 @@ export const ResumeContainer = styled.div`
     padding: 0;
     margin: 0;
     width: 1000px;
-    height: 1294px;
+
+    @page {
+      size: 8.5in 11.5in;
+    }
   }
 
   @media screen and (max-width: 700px) {
@@ -67,7 +70,6 @@ export const ResumeContainer = styled.div`
 
 export const ResumeInner = styled.div`
   width: 1000px;
-  max-width: 100vw;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
   display: flex;
@@ -77,7 +79,8 @@ export const ResumeInner = styled.div`
   margin-bottom: 40px;
 
   @media print {
-    border-radius: 0px;
+    border-radius: 0;
+    margin-bottom: 0;
   }
 
   @media screen and (max-width: 700px) {
