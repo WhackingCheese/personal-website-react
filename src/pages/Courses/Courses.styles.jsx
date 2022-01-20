@@ -60,6 +60,7 @@ export const CourseItem = styled.div`
     width: 10px;
     height: 10px;
     background-color: ${(props) => props.theme.primary};
+    transition: background-color 0.5s;
     top: 50%;
     left: -1.5em;
     transform: translateY(-50%);
@@ -70,10 +71,14 @@ export const CourseItem = styled.div`
 export const CourseItemName = styled.p`
   font-weight: 700;
   font-size: 1em;
+  color: ${(props) => props.theme.primary};
+  transition: color 0.5s;
 `;
 
 export const CourseItemNumber = styled.p`
   font-size: 1em;
+  color: ${(props) => props.theme.primary};
+  transition: color 0.5s;
 `;
 
 export const SemesterItem = styled.div`

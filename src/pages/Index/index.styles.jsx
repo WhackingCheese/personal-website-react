@@ -129,7 +129,8 @@ export const IndexPrefix = styled.p`
     content: "";
     height: 1px;
     width: 50px;
-    background-color: grey;
+    transition: background-color 0.5s;
+    background-color: ${(props) => props.theme.secondary};
     display: inline-block;
     position: relative;
     transform: translateY(-500%);

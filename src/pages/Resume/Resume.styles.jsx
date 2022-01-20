@@ -1,4 +1,3 @@
-import { BsTypeBold } from "react-icons/bs";
 import styled from "styled-components";
 
 export const ResumeHeaderContainer = styled.div`
@@ -42,6 +41,7 @@ export const ResumeContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: margin 0.5s;
   
   & > * {
     padding: 0;
@@ -57,6 +57,10 @@ export const ResumeContainer = styled.div`
 
   @media screen and (max-width: 700px) {
     width: 100%;
+  }
+
+  @media (min-width: 701px) and (max-width: 1040px) {
+    margin: 40px; 20px;
   }
 `;
 
