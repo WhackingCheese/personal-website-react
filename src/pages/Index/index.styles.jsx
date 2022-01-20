@@ -1,5 +1,12 @@
 import styled from "styled-components";
 
+export const IndexOuterContainer = styled.div`
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+  position: relative;
+`;
+
 export const IconContainer = styled.div`
   display: flex;
   position: absolute;

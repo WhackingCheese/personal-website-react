@@ -22,12 +22,6 @@ export const SemesterHeading = styled.h3`
     bottom: -6px;
     background-color: ${(props) => props.theme.accent};
   }
-
-  
-  @media (max-width: 700px) {
-    margin: 1em auto;
-    text-align: center;
-  }
 `;
 
 export const CoursesTitle = styled.h2`
@@ -35,9 +29,17 @@ export const CoursesTitle = styled.h2`
   text-align: center;
   margin: 0 calc((100vw - 100%) / 2 * -1);
   background-color: ${(props) => props.theme.accent};
-  padding: 0.25em calc((100vw - 100%) / 2);
-  font-size: 24px;
+  padding: 0.25em calc((100vw - 100%) / 2 + 1em);
+  font-size: 1.5rem;
   transition: color 0.5s;
+
+  @media (max-width: 768px) {
+    font-size: 1.25rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1rem;
+  }
 `;
 
 export const CoursesSubtitle = styled.h3`
@@ -107,5 +109,11 @@ export const SemesterContainer = styled.div`
 
   @media (max-width: 700px) {
     margin: 0 auto;
+  }
+
+  @media (max-width: 480px) {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 2em;
   }
 `;

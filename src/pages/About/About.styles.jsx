@@ -119,7 +119,12 @@ export const AboutMainHeader = styled.h1`
 
 export const AboutMainText = styled.p`
   text-align: justify;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   transition: color 0.5s;
   color: ${(props) => props.theme.primary};
+  line-height: 1.5;
+
+  @media (max-width: 480px) {
+    font-size: 0.9em;
+  }
 `;

@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { LanguageContext, DataContext } from '../../components';
-import { IconContainer, IconLink, IndexContainer, IndexSlant, ResumeButton, IndexInfoContainer, IndexTitle, IndexSubtitle, IndexPrefix } from "./index.styles";
+import { IconContainer, IconLink, IndexContainer, IndexSlant, ResumeButton, IndexInfoContainer, IndexTitle, IndexSubtitle, IndexPrefix, IndexOuterContainer } from "./index.styles";
 
 function Index() {
 
@@ -8,7 +8,7 @@ function Index() {
   const [ data ] = useContext(DataContext);
   
   return (
-    <>
+    <IndexOuterContainer>
       <IndexContainer>
         <IndexInfoContainer>
           <IndexPrefix>
@@ -46,7 +46,7 @@ function Index() {
           )
         })}
       </IconContainer>
-    </>
+    </IndexOuterContainer>
   );
 }
 

@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { LanguageContext, DataContext } from '../../components';
-import { PortfolioCard, PortfolioCardBody, PortfolioCardButton, PortfolioCardButtonContainer, PortfolioCardContent, PortfolioCardContentContainer, PortfolioCardsContainer, PortfolioCardTitle, PortfolioProjectType, PortfolioContainer } from "./Portfolio.styles";
+import { PortfolioCard, PortfolioCardBody, PortfolioCardButton, PortfolioCardButtonContainer, PortfolioCardContent, PortfolioCardContentContainer, PortfolioCardsContainer, PortfolioCardTitle, PortfolioProjectType, PortfolioContainer, PortfolioProjectTypeContainer } from "./Portfolio.styles";
 
 function Portfolio() {
 
@@ -12,9 +12,11 @@ function Portfolio() {
       {data.projects.projects.map((projects, i) => {
         return (
           <PortfolioContainer key={i}>
-            <PortfolioProjectType>
-              {t(projects.type)}
-            </PortfolioProjectType>
+            <PortfolioProjectTypeContainer>
+              <PortfolioProjectType>
+                {t(projects.type)}
+              </PortfolioProjectType>
+            </PortfolioProjectTypeContainer>
             <PortfolioCardsContainer>
               {projects.projects.map((project, j) => {
                 return (

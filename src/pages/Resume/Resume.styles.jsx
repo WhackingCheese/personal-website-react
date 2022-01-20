@@ -27,6 +27,7 @@ export const ResumeHeader = styled.h1`
   position: relative;
   color: ${(props) => props.theme.primary};
   transition: color 0.5s;
+  margin-left: 1em;
 
   &::after {
     position: absolute;
@@ -59,7 +60,7 @@ export const ResumeContainer = styled.div`
     width: 1000px;
 
     @page {
-      size: 8.5in 11.5in;
+      size: 8.5in 11.4in;
     }
   }
 
@@ -70,6 +71,7 @@ export const ResumeContainer = styled.div`
 
 export const ResumeInner = styled.div`
   width: 1000px;
+  max-width: 100vw;
   border-radius: 5px;
   box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.15);
   display: flex;
@@ -81,6 +83,8 @@ export const ResumeInner = styled.div`
   @media print {
     border-radius: 0;
     margin-bottom: 0;
+    height: 100%;
+    max-width: none;
   }
 
   @media screen and (max-width: 700px) {
@@ -114,6 +118,10 @@ export const ResumeSplit = styled.div`
 
   @media screen and (max-width: 300px) {
     width: 280px;
+  }
+
+  @media print {
+    height: 1400px;
   }
 `;
 

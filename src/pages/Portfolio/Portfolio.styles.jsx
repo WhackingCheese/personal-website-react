@@ -4,12 +4,16 @@ export const PortfolioContainer = styled.div`
   margin: 2rem 0;
 `;
 
-export const PortfolioProjectType = styled.h2`
+export const PortfolioProjectTypeContainer = styled.div`
   margin: 0 calc((100vw - 100%) / 2 * -1);
-  padding: 0.25rem calc((100vw - 100%) / 2 + 2rem);
+  padding: 0.25rem calc((100vw - 100%) / 2);
   width: 100%;
   background-color: ${(props) => props.theme.accent};
+`;
+
+export const PortfolioProjectType = styled.h2`
   color: white;
+  margin-left: 2rem;
 `;
 
 export const PortfolioCardsContainer = styled.div`
@@ -133,10 +137,11 @@ export const PortfolioCard = styled.div`
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
 
   @media (max-width: 720px) {
-    height: 330px;
+    height: ${(props) => props.longText ? '350px' : '300px'};
   }
 
   @media (max-width: 500px) {
+    height: ${(props) => props.longText ? '375px' : '300px'};
     padding-top: ${(props) => props.longText ? '150px' : '0px'};
   }
 

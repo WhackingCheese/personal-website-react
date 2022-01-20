@@ -22,7 +22,7 @@ function Courses() {
               <SemesterItem>
                 {semester.courses.map((course, j) => {
                   return (
-                    <CourseItem>
+                    <CourseItem key={j}>
                       <CourseItemName>
                         {t(course.number)}
                       </CourseItemName>

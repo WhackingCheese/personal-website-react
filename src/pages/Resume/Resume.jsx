@@ -154,7 +154,7 @@ function Resume() {
                         </FlexContainer>
                       );
                     })}
-                    <TextItem margin={'5px 0 0 0'} textAlign='justify'>
+                    <TextItem fontSize={'12px'} margin={'5px 0 0 0'} textAlign='justify'>
                       {t(experience.description)}
                     </TextItem>
                   </FlexContainer>
