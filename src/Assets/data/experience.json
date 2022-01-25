@@ -15,7 +15,7 @@
             "en": "Secretary and Vice President",
             "is": "Ritari og Varaforseti"
           },
-          "time": ["2021"],
+          "time": [ 2021 ],
           "current": true
         },
         {
@@ -23,7 +23,7 @@
             "en": "Promotional Representative",
             "is": "Kynningarfulltrúi"
           },
-          "time": ["2019", "2021"],
+          "time": [ 2019, 2021 ],
           "current": false
         }
       ],
@@ -31,22 +31,6 @@
         "en": "Am one of the most active members of Nörd, The Computer Science and Software Engineering student society at the University of Iceland. Through the society, I have played an important role promoting these educational fields to future students as a Promotional Representative between 2019 and 2021 and am now serving as the Secretary of the organization for the years 2021 to 2022.",
         "is": "Er einn virkasti meðlimur Nörd, Félags Tölvunarfæði- og Hugbúnaðarverkfræðinema við Háskóla Íslands. Í félaginu hef ég gegnt mikilvægu hlutverki við að kynna þessi fræðasvið fyrir framtíðarnemendum sem kynningarfulltrúi félagsins milli áranna 2019 og 2021 og gegni nú hlutverki Ritara félagins fyrir árin 2021 til 2022."
       }
-    },
-    {
-      "title": {
-        "en": "University of Iceland",
-        "is": "Háskóli Íslands"
-      },
-      "role": [
-        {
-          "title": {
-            "en": "Web Programing 2 - Teachers Assistant",
-            "is": "Vefforritun 2 - Dæmatímakennari"
-          },
-          "time": [2022],
-          "current": "true"
-        }
-      ]
     }
   ]
 }

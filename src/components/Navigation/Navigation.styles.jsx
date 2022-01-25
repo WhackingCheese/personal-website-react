@@ -11,7 +11,7 @@ export const Nav = styled.header`
   justify-content: space-between;
   width: 100vw;
   transition: background-color 0.5s, font-size 0.5s;
-  z-index: 100;
+  z-index: 10;
   box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
 
   @media screen and (min-width: 1024px) {
@@ -89,7 +89,7 @@ export const NavMenu = styled.div`
 `;
 
 export const Sidebar = styled.aside`
-  z-index: 100;
+  z-index: 10;
   position: fixed;
   width: 100%;
   height: 100%;

@@ -6,6 +6,22 @@
   "jobs": [
     {
       "company": {
+        "en": "University of Iceland",
+        "is": "Háskóli Íslands"
+      },
+      "title": {
+        "en": "Teachers Assistant - Web Programming 2",
+        "is": "Dæmatímakennari - Vefforritun 2"
+      },
+      "description": {
+        "en": "Starfa sem dæmatímakennari í áfanganum Vefforitun 2 hjá Háskóla Ísalnds. Starfið felst meðal annars í því að kenna dæmatíma og hjálpa nemendum að ná betri skilning á efninu.",
+        "is": "Work as a teachers assistant in the Web Programming 2 course at the University of Iceland. The job involves teaching consultation sessions and in helping students gain a better understanding of the subject."
+      },
+      "time": [ 2022 ],
+      "current": true
+    },
+    {
+      "company": {
         "en": "Icelandic Red Cross",
         "is": "Rauði Kross Íslands"
       },
@@ -17,8 +33,7 @@
         "en": "Provide care and services to individuals in quarantine and isolation in quarantine hotels who can't safely quarantine or isolate themselves at their place of residence and those without permanent residence in the country.",
         "is": "Sinni einstaklingum í sóttkví og einangrun á farsóttarhúsum sem geta ekki sinnt sóttkví eða einangrun í sínu heimahúsi og þeim sem hafa ekki fasta búsetu á landinu."
       },
-      "time": [ "2021" ],
-      "img": "/images/redcross.png",
+      "time": [ 2021 ],
       "current": true
     },
     {
@@ -31,8 +46,7 @@
         "en": "Designed, implemented and deployed a system used to log and analyse random production sample data for Sæplast's manufacturing plant in Dalvík.",
         "is": "Hannaði, innleiddi og setti upp kerfi notað til að skrá og greina gögn um slembin framleiðslusýni fyrir verksmiðju Sæplasts á Dalvík."
       },
-      "time": [ "2021" ],
-      "img": "/images/saeplast.png",
+      "time": [ 2021 ],
       "current": false
     },
     {
@@ -45,8 +59,7 @@
         "en": "Performed almost all possible tasks; everything from waiting tables, servicing customers and baking pizzas to prepping and cleaning.",
         "is": "Sinnti nær öllum mögulegum hlutverkum á staðnum; allt frá því að þjóna til borðs, afgreiðslu og pizzabaksturs til undirbúnings og þrifs."
       },
-      "time": [ "2019", "2021" ],
-      "img": "/images/flatbakan.png",
+      "time": [ 2019, 2021 ],
       "current": false
     },
     {
@@ -62,8 +75,7 @@
         "en": "Was primarily a substitute team leader, took over other team leader's groups when they got sick or went on holiday. While few or no team leaders were unavailable I worked on other projects for the municipality.",
         "is": "Vann aðallega við afleysingar þar sem ég tók við hópum þeirra vaktstjóra sem voru veikir eða í fríi. Þegar ekki þurfti afleysingar, sinnti ég öðrum verkefnum fyrir bæjarfélagið"
       },
-      "time": [ "2019" ],
-      "img": "/images/kopavogur.png",
+      "time": [ 2019 ],
       "current": false
     },
     {
@@ -76,8 +88,7 @@
         "en": "Threw myself at all the tasks that needed solving; from refills in the shop, servicing customers at the register and the butcher counter to preparing hot foods.",
         "is": "Tók að mér öll þau verkefni sem þurfti að sinna hverju sinni, allt frá áfyllingum á vörum, afgreiðslu viðskiptavina á kassa og við kjötborðið til undirbúnings heitra matvæla."
       },
-      "time": [ "2019" ],
-      "img": "/images/melabudin.png",
+      "time": [ 2019 ],
       "current": false
     },
     {
@@ -90,8 +101,7 @@
         "en": "Worked on manufacturing high-quality dried fish products. Was involved in the entire process; from the receipt of raw materials and products, through production to packaging and preparation of shipments.",
         "is": "Vann við framleiðslu á hágæða harðfisk, en þar fékk ég tækifæri á að sinna öllum störfum sem fylgdu ferlinu, svo sem móttöku hráefna, framleiðslu, pökkun og undirbúnings sendingina."
       },
-      "time": [ "2015", "2018" ],
-      "img": "/images/vestfiskur.png",
+      "time": [ 2015, 2018 ],
       "current": false
     }
   ]

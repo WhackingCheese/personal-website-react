@@ -14,7 +14,7 @@ export const Section = styled.div`
     margin: 0 calc((100vw - 100%) / 2 * -1);
     padding: 0 calc((100vw - 100%) / 2);
     box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.1);
-    z-index: 10;
+    z-index: 2;
   }
 
   &:last-child {

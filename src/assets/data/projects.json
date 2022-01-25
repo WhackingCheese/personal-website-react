@@ -189,7 +189,7 @@
             "is": "Þessi vefsíða. Notuð til að birta hvað sem ég vil. Búin til með React, styled-components og öðrum minna áberandi pökkum. Strúktúr verkefnisins er vel sett upp og er brotið niður í síður, endurnotenlega hluti og eignir. Noteast við JSX. Vefsíðan styður þemur, og mismunandi tungumál þá aðeins ljós og dökk þema er útfærð sem og aðeins Enska og Íslenska hvað varðar tungumál þó virkni sé til staðar fyrir fleiri mál og þemur. Staðfærsla er framkvæmd með minni eigin útfærslu. Textagögn vefsíðunnar eru geymd í JSON stengjum og eru byggð á dynamic hátt á notendahliðinni sem gerir mér kleift að breyta og endurnýtta texta allra einstakra hluta á auðveldari hátt."
           },
           "href": "https://mikolajcymcyk.com",
-          "repo": "https://github.com/WhackingCheese/personal-site",
+          "repo": "https://github.com/WhackingCheese/personal-website-react",
           "img": "img/projects/website.png",
           "important": true,
           "longtext": true
