@@ -6,22 +6,6 @@
   "jobs": [
     {
       "company": {
-        "en": "University of Iceland",
-        "is": "Háskóli Íslands"
-      },
-      "title": {
-        "en": "Teachers Assistant - Web Programming 2",
-        "is": "Dæmatímakennari - Vefforritun 2"
-      },
-      "description": {
-        "en": "Starfa sem dæmatímakennari í áfanganum Vefforitun 2 hjá Háskóla Ísalnds. Starfið felst meðal annars í því að kenna dæmatíma og hjálpa nemendum að ná betri skilning á efninu.",
-        "is": "Work as a teachers assistant in the Web Programming 2 course at the University of Iceland. The job involves teaching consultation sessions and in helping students gain a better understanding of the subject."
-      },
-      "time": [ 2022 ],
-      "current": true
-    },
-    {
-      "company": {
         "en": "Icelandic Red Cross",
         "is": "Rauði Kross Íslands"
       },

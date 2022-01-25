@@ -60,7 +60,7 @@ export const ResumeContainer = styled.div`
     width: 1000px;
 
     @page {
-      size: 8.5in 11.4in;
+      size: 8.5in 11.6in;
     }
   }
 
