@@ -34,7 +34,7 @@
           },
           "href": "https://notendur.hi.is/mic5/Bomberman/",
           "repo": "https://github.com/WhackingCheese/Bomberman",
-          "img": "img/projects/bomberman.png",
+          "img": "/img/projects/bomberman.png",
           "important": true
         },
         {
@@ -52,7 +52,7 @@
           },
           "href": "https://notendur.hi.is/mic5/3D-Snake/",
           "repo": "https://github.com/WhackingCheese/3D-Snake",
-          "img": "img/projects/3dsnake.png"
+          "img": "/img/projects/3dsnake.png"
         },
         {
           "title": {
@@ -69,7 +69,7 @@
           },
           "href": "https://notendur.hi.is/mic5/3D-Frogger/",
           "repo": "https://github.com/WhackingCheese/3D-Frogger",
-          "img": "img/projects/3dfrogger.png"
+          "img": "/img/projects/3dfrogger.png"
         },
         {
           "title": {
@@ -86,7 +86,7 @@
           },
           "href": "https://notendur.hi.is/mic5/Icelandic-Spellchecker/",
           "repo": "https://github.com/WhackingCheese/Icelandic-Spellchecker",
-          "img": "img/projects/spellchecker.png"
+          "img": "/img/projects/spellchecker.png"
         },
         {
           "title": {
@@ -103,7 +103,7 @@
           },
           "href": "https://ut-ad-borda.herokuapp.com/",
           "repo": "https://github.com/thth168/ut-ad-borda",
-          "img": "img/projects/utadbordawebsite.png"
+          "img": "/img/projects/utadbordawebsite.png"
         },
         {
           "title": {
@@ -119,7 +119,7 @@
             "is": "Hugbúnaðarverkefni 2 - HBV601G"
           },
           "repo": "https://github.com/thth168/ut-ad-borda",
-          "img": "img/projects/utadbordaapp.png"
+          "img": "/img/projects/utadbordaapp.png"
         },
         {
           "title": {
@@ -136,7 +136,7 @@
           },
           "href": "https://mic5-v4.herokuapp.com/",
           "repo": "https://github.com/WhackingCheese/vef2-2021-v4",
-          "img": "img/projects/earthquakes.png"
+          "img": "/img/projects/earthquakes.png"
         },
         {
           "title": {
@@ -153,7 +153,7 @@
           },
           "href": "https://mic5-v5.herokuapp.com/",
           "repo": "https://github.com/WhackingCheese/vef2-2021-v5",
-          "img": "img/projects/news.png"
+          "img": "/img/projects/news.png"
         },
         {
           "title": {
@@ -169,7 +169,7 @@
             "is": "Keppnisforritun – TOL607G"
           },
           "repo": "https://github.com/WhackingCheese/Kattis-Problems",
-          "img": "img/projects/kattis.png"
+          "img": "/img/projects/kattis.png"
         }
       ]
     },
@@ -190,7 +190,7 @@
           },
           "href": "https://mikolajcymcyk.com",
           "repo": "https://github.com/WhackingCheese/personal-website-react",
-          "img": "img/projects/website.png",
+          "img": "/img/projects/website.png",
           "important": true,
           "longtext": true
         },
@@ -204,7 +204,7 @@
             "is": "Discord spjallbotti með helling af fítusum gert fyrir nokkra þúsund meðlima netsamfélag sem ég bjó til og sá um í nokkur ár sem er nú yfirgefið. Þetta var eitt af mínu fyrstu persónulegum forritunarverkefnum."
           },
           "repo": "https://github.com/WhackingCheese/Barbarian-Bot",
-          "img": "img/projects/barbarianbot.svg",
+          "img": "/img/projects/barbarianbot.svg",
           "important": true
         }
       ]

@@ -12,28 +12,28 @@
         "en": "About",
         "is": "Um"
       },
-      "route": "/about"
+      "route": "/about/"
     },
     {
       "name": {
         "en": "Portfolio",
         "is": "Verkefni"
       },
-      "route": "/portfolio"
+      "route": "/portfolio/"
     },
     {
       "name": {
         "en": "Courses",
         "is": "Áfangar"
       },
-      "route": "/courses"
+      "route": "/courses/"
     },
     {
       "name": {
         "en": "Resume",
         "is": "Ferilskrá"
       },
-      "route": "/resume"
+      "route": "/resume/"
     }
   ]
 }
