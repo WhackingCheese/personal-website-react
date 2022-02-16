@@ -19,7 +19,7 @@
     "en": "About Me",
     "is": "Um Mig"
   },
-  "button_ref": "/about",
+  "button_ref": "/about/",
   "icons": [
     "linkedin",
     "github",

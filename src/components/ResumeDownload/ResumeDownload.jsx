@@ -9,12 +9,12 @@ function ResumeDownload() {
 
   return(
     <DownloadButtonContainer>
-      <a href='resume/Resume - IS.pdf' target="_blank" rel="noreferrer">
+      <a href='/Resume - IS.pdf' target="_blank" rel="noreferrer">
         <DownloadButton>
           {t(data.general.cv_download) + ' - IS'}
         </DownloadButton>
       </a>
-      <a href='resume/Resume - EN.pdf' target="_blank" rel="noreferrer">
+      <a href='/Resume - EN.pdf' target="_blank" rel="noreferrer">
         <DownloadButton>
           {t(data.general.cv_download) + ' - EN'}
         </DownloadButton>
