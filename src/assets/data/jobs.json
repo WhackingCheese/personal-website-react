@@ -6,6 +6,22 @@
   "jobs": [
     {
       "company": {
+        "en": "Valitor",
+        "is": "Valitor"
+      },
+      "title": {
+        "en": "Software Developer",
+        "is": "Forritari"
+      },
+      "description": {
+        "en": "I began work at Valitor shortly after graduation in March 2022 as a Software Developer in the Issuing department. My main project since i began working here has been rewriting the company's Visa and MasterCard authorization systems from COBOL to C#. I have personally been involved in designing, developing, testing and implementing these systems and have gained a lot of knowledge since I began here.",
+        "is": "Ég hóf störf hjá Valitor stuttu eftir útskrift í mars 2022 sem Forritari á kortautgáfusviði. Aðal verkefnið mitt frá því að ég hóf störf hefur verið að vinna að endurskrift Visa og MasterCard heimildakerfa fyrirtækisins úr COBOL í C#. Ég hef persónulega tekið þátt í hönnun, þróun, prófun og innleiðingu þessara kerfa og hef ég því öðlast mikla þekkingu síðan ég byrjaði hér."
+      },
+      "time": [ 2022 ],
+      "current": true
+    },
+    {
+      "company": {
         "en": "Icelandic Red Cross",
         "is": "Rauði Kross Íslands"
       },
@@ -14,11 +30,11 @@
         "is": "Almennur Starfsmaður á Farsóttarhúsi"
       },
       "description": {
-        "en": "Provide care and services to individuals in quarantine and isolation in quarantine hotels who can't safely quarantine or isolate themselves at their place of residence and those without permanent residence in the country.",
-        "is": "Sinni einstaklingum í sóttkví og einangrun á farsóttarhúsum sem geta ekki sinnt sóttkví eða einangrun í sínu heimahúsi og þeim sem hafa ekki fasta búsetu á landinu."
+        "en": "Provided care and services to individuals in quarantine and isolation in quarantine hotels who couldn't safely quarantine or isolate themselves at their place of residence and those without permanent residence in the country.",
+        "is": "Sinnti einstaklingum í sóttkví og einangrun á farsóttarhúsum sem gátu ekki sinnt sóttkví eða einangrun í sínu heimahúsi og þeim sem ekki höfðu fasta búsetu á landinu."
       },
-      "time": [ 2021 ],
-      "current": true
+      "time": [ 2021, 2022 ],
+      "current": false
     },
     {
       "company": "Sæplast Iceland",
@@ -58,19 +74,6 @@
       "description": {
         "en": "Was primarily a substitute team leader, took over other team leader's groups when they got sick or went on holiday. While few or no team leaders were unavailable I worked on other projects for the municipality.",
         "is": "Vann aðallega við afleysingar þar sem ég tók við hópum þeirra vaktstjóra sem voru veikir eða í fríi. Þegar ekki þurfti afleysingar, sinnti ég öðrum verkefnum fyrir bæjarfélagið"
-      },
-      "time": [ 2019 ],
-      "current": false
-    },
-    {
-      "company": "Melabúðin",
-      "title": {
-        "en": "General Employee",
-        "is": "Almennur Starfsmaður"
-      },
-      "description": {
-        "en": "Threw myself at all the tasks that needed solving; from refills in the shop, servicing customers at the register and the butcher counter to preparing hot foods.",
-        "is": "Tók að mér öll þau verkefni sem þurfti að sinna hverju sinni, allt frá áfyllingum á vörum, afgreiðslu viðskiptavina á kassa og við kjötborðið til undirbúnings heitra matvæla."
       },
       "time": [ 2019 ],
       "current": false

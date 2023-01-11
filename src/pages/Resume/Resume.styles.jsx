@@ -53,14 +53,13 @@ export const ResumeContainer = styled.div`
     margin: 0;
   }
 
-  
   @media print {
     padding: 0;
     margin: 0;
     width: 1000px;
 
     @page {
-      size: 8.5in 11.6in;
+      size: 8.5in 11.9in;
     }
   }
 

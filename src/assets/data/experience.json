@@ -15,8 +15,8 @@
             "en": "Secretary and Vice President",
             "is": "Ritari og Varaforseti"
           },
-          "time": [ 2021 ],
-          "current": true
+          "time": [ 2021, 2022 ],
+          "current": false
         },
         {
           "title": {
@@ -44,7 +44,7 @@
             "is": "Dæmatímakennari - Vefforritun 2"
           },
           "time": [ 2022 ],
-          "current": true
+          "current": false
         }
       ],
       "description": {

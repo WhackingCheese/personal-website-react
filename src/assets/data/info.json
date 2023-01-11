@@ -1,8 +1,8 @@
 {
   "title": "Mikolaj Cymcyk",
   "subtitle": {
-    "en": "Computer Scientist",
-    "is": "Tölvunarfræðingur"
+    "en": "Software Developer",
+    "is": "Forritari"
   },
   "links": [
     "person",
@@ -29,12 +29,20 @@
     },
     "data": [
       {
+        "name": "C#",
+        "rating": 4.6
+      },
+      {
+        "name": "COBOL",
+        "rating": 3.5
+      },
+      {
         "name": "Python",
-        "rating": 4.8
+        "rating": 4.2
       },
       {
         "name": "Java",
-        "rating": 4.2
+        "rating": 4.0
       },
       {
         "name": "C",
@@ -42,19 +50,19 @@
       },
       {
         "name": "SQL",
-        "rating": 4
+        "rating": 4.5
       },
       {
         "name": "Git",
-        "rating": 4.3
+        "rating": 4.5
       },
       {
         "name": "JavaScript | CSS",
-        "rating": 4.2
+        "rating": 4.0
       },
       {
         "name": "Node | Express | React",
-        "rating": 4.5
+        "rating": 4.0
       }
     ]
   }
