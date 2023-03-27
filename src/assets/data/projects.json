@@ -188,7 +188,7 @@
             "en": "This website. Used to show anything that i want. Created with React, styled-components and other less notible node packages. Project is well structured and broken down into sepereate pages, components, and assets. Utilizes basic JSX. The website supports themes and different languages though only light and dark theme are implemented as well as only English and Icelandic in terms of languages though the functionality for other themes and languages is there. Localization is accomplished using my own implementation. The website's text data is stored in json strings and is built dynamically from the on the client side allowing me to more easily change and reuse the text of all of the individual items.",
             "is": "Þessi vefsíða. Notuð til að birta hvað sem ég vil. Búin til með React, styled-components og öðrum minna áberandi pökkum. Strúktúr verkefnisins er vel sett upp og er brotið niður í síður, endurnotenlega hluti og eignir. Noteast við JSX. Vefsíðan styður þemur, og mismunandi tungumál þá aðeins ljós og dökk þema er útfærð sem og aðeins Enska og Íslenska hvað varðar tungumál þó virkni sé til staðar fyrir fleiri mál og þemur. Staðfærsla er framkvæmd með minni eigin útfærslu. Textagögn vefsíðunnar eru geymd í JSON stengjum og eru byggð á dynamic hátt á notendahliðinni sem gerir mér kleift að breyta og endurnýtta texta allra einstakra hluta á auðveldari hátt."
           },
-          "href": "https://mikolajcymcyk.com",
+          "href": "https://mikkicym.com",
           "repo": "https://github.com/WhackingCheese/personal-website-react",
           "img": "/img/projects/website.png",
           "important": true,

@@ -21,7 +21,7 @@ const links = {
   'email': {'text': 'mikolaj.cymcyk@gmail.com', 'href': 'mailto:mikolaj.cymcyk@gmail.com', 'icon': BsEnvelope},
   'github': {'text': 'WhackingCheese', 'href': 'https://github.com/whackingcheese', 'icon': BsGithub},
   'linkedin': {'text': 'Mikolaj Cymcyk', 'href': 'https://www.linkedin.com/in/mikolajcymcyk', 'icon': BsLinkedin},
-  'website': {'text': 'www.mikolajcymcyk.com', 'href': 'https://www.mikolajcymcyk.com', 'icon': BsGlobe2},
+  'website': {'text': 'www.mikkicym.com', 'href': 'https://www.mikkicym.com', 'icon': BsGlobe2},
   'instagram': {'text': 'storostur', 'href': 'https://www.instagram.com/mikkicym/', 'icon': BsInstagram},
   'facebook': {'text': 'Mikolaj Cymcyk', 'href': 'https://www.facebook.com/Mikolaj.Cymcyk/', 'icon': BsFacebook}
 }
