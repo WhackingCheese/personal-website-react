@@ -5,6 +5,19 @@
   },
   "references": [
     {
+      "name": "Ólafur Sverrir Kjartansson",
+      "position": {
+        "is": "Tæknistjóri - CTO",
+        "en": "Chief Technology Officer"
+      },
+      "company": {
+        "is": "Hugsmiðjan",
+        "en": "Hugsmiðjan"
+      },
+      "phoneNr": "692-2349",
+      "email": "oli@hugsmidjan.is"
+    },
+    {
       "name": "Björn Margeirsson",
       "position": {
         "is": "Rannsóknarstjóri",
@@ -26,7 +39,9 @@
       },
       "phoneNr": "888-3070",
       "email": "orvarthorri@redcross.is"
-    },  
+    }
+  ],
+  "references_old": [
     {
       "name": "Gabríel Daði Vignisson",
       "position": {
