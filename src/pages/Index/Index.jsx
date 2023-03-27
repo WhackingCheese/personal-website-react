@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { LanguageContext, DataContext } from '../../components';
 import { IconContainer, IconLink, IndexContainer, IndexSlant, ResumeButton, IndexInfoContainer, IndexTitle, IndexSubtitle, IndexPrefix, IndexOuterContainer } from "./index.styles";
+import { NavLink as Link } from 'react-router-dom';
 
 function Index() {
 
@@ -28,11 +29,11 @@ function Index() {
           <IndexSubtitle>
             {t(data.index.subtitle)}
           </IndexSubtitle>
-          <a href={data.index.button_ref}>
+          <Link to={data.index.button_ref}>
             <ResumeButton>
               {t(data.index.button)}
             </ResumeButton>
-          </a>
+          </Link>
         </IndexInfoContainer>
       </IndexContainer>
       <IndexSlant/>
