@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/personal-website-react/static/js/main.e8c8635a.js",
-    "static/media/profile-transparent.png": "/personal-website-react/static/media/profile-transparent.4f73928b5559550b655b.png",
-    "static/media/profile.png": "/personal-website-react/static/media/profile.5a74dc972e764e49319c.png",
-    "static/media/logo-transparent.svg": "/personal-website-react/static/media/logo-transparent.26a408592684fe10d51b15f1b431c759.svg",
-    "index.html": "/personal-website-react/index.html",
-    "main.e8c8635a.js.map": "/personal-website-react/static/js/main.e8c8635a.js.map"
+    "main.js": "/mikkicym.com/static/js/main.5999d511.js",
+    "static/media/profile-transparent.png": "/mikkicym.com/static/media/profile-transparent.4f73928b5559550b655b.png",
+    "static/media/profile.png": "/mikkicym.com/static/media/profile.5a74dc972e764e49319c.png",
+    "static/media/logo-transparent.svg": "/mikkicym.com/static/media/logo-transparent.26a408592684fe10d51b15f1b431c759.svg",
+    "index.html": "/mikkicym.com/index.html",
+    "main.5999d511.js.map": "/mikkicym.com/static/js/main.5999d511.js.map"
   },
   "entrypoints": [
-    "static/js/main.e8c8635a.js"
+    "static/js/main.5999d511.js"
   ]
 }
