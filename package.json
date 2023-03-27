@@ -1,6 +1,6 @@
 {
   "name": "personal-website-react",
-  "homepage": "./",
+  "homepage": "/",
   "version": "1.0.0",
   "description": "My personal website. Made in React!",
   "private": false,
