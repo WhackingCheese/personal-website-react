@@ -1,6 +1,6 @@
 {
   "name": "personal-website-react",
-  "homepage": "https://whackingcheese.github.io/personal-website-react/",
+  "homepage": "https:mikkicym.com/",
   "version": "1.0.0",
   "description": "My personal website. Made in React!",
   "private": false,
@@ -17,7 +17,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build && cp build/index.html build/404.html",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
