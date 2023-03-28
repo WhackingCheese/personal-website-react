@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Follower, GlobalStyles, Navigation, LanguageManager, ThemeManager, PageContainer, DataManager, PageContainerInner } from './components';
 import Footer from './components/Footer/Footer';
 import { About, Index, Portfolio, Resume, NotFound, Courses } from './pages';
@@ -10,7 +10,7 @@ function App() {
         <ThemeManager>
           <GlobalStyles/>
           <Follower/>
-          <BrowserRouter>
+          <HashRouter>
             <Navigation/>
             <PageContainer>
               <PageContainerInner>
@@ -25,7 +25,7 @@ function App() {
               </PageContainerInner>
               <Footer/>
             </PageContainer>
-          </BrowserRouter>
+          </HashRouter>
         </ThemeManager>
       </DataManager>
     </LanguageManager>
