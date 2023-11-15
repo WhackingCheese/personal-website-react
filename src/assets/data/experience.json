@@ -6,6 +6,34 @@
   "experience": [
     {
       "title": {
+        "en": "Rapyd Europe Employee Association",
+        "is": "Starfsmannafélag Rapyd Europe"
+      },
+      "role": [
+        {
+          "title": {
+            "en": "Treasurer",
+            "is": "Gjaldkeri"
+          },
+          "time": [ 2023 ],
+          "current": true
+        },
+        {
+          "title": {
+            "en": "Vice President",
+            "is": "Varaformaður"
+          },
+          "time": [ 2023 ],
+          "current": false
+        }
+      ],
+      "description": {
+        "is": "Samhliða starfi mínu gegnti ég hlutverki varaforseta og gegni nú hlutverki gjaldkera Starfsmannafélags Rapyd Europe. Ég held utan um fjármálin félagsins og aðstoða við skipulagningu viðburða fyrir starfsfólk fyrirtækisins.",
+        "en": "Along with my job I acted as the Vice President and now act as the Treasurer of the Rapyd Europe Employee Association. In this role I manage the organizations finances and help organize events for employees."
+      }
+    },
+    {
+      "title": {
         "en": "Nörd, Student Association of Computer Science and Software Engineering Students",
         "is": "Nörd, Nemendafélag Tölvunar- og Hugbúnaðarverkfræðinema í HÍ"
       },
@@ -28,8 +56,8 @@
         }
       ],
       "description": {
-        "en": "Am one of the most active members of Nörd, The Computer Science and Software Engineering student society at the University of Iceland. Through the society, I have played an important role promoting these educational fields to future students as a Promotional Representative between 2019 and 2021 and am now serving as the Secretary of the organization for the years 2021 to 2022.",
-        "is": "Er einn virkasti meðlimur Nörd, Félags Tölvunarfæði- og Hugbúnaðarverkfræðinema við Háskóla Íslands. Í félaginu hef ég gegnt mikilvægu hlutverki við að kynna þessi fræðasvið fyrir framtíðarnemendum sem kynningarfulltrúi félagsins milli áranna 2019 og 2021 og gegni nú hlutverki Ritara félagins fyrir árin 2021 til 2022."
+        "en": "Was one of the most active members of Nörd, The Computer Science and Software Engineering student society at the University of Iceland. Through the society, I played an active role promoting these educational fields to future students as a Promotional Representative between 2019 and 2021 and served as the Secretary of the organization for the years 2021 to 2022.",
+        "is": "Var einn virkasti meðlimur Nörd, Félags Tölvunarfæði- og Hugbúnaðarverkfræðinema við Háskóla Íslands. Í félaginu gegnti ég virku hlutverki við að kynna þessi fræðasvið fyrir framtíðarnemendum sem kynningarfulltrúi félagsins árin 2019 til 2021 og gegti síðan hlutverki Ritara félagins árin 2021 til 2022."
       }
     },
     {
@@ -48,8 +76,8 @@
         }
       ],
       "description": {
-        "is": "Starfa sem dæmatímakennari hjá Háskóla Ísalnds. Starfið felst meðal annars í því að kenna dæmatíma og hjálpa nemendum að ná betri skilning á efninu.",
-        "en": "Work as a teachers assistant at the University of Iceland. The job involves teaching consultation sessions and in helping students gain a better understanding of the subject."
+        "is": "Starfaði sem dæmatímakennari hjá Háskóla Ísalnds. Starfið snérist meðal annars að því að kenna dæmatíma og hjálpa nemendum að ná betri skilning á efninu.",
+        "en": "Worked as a teachers assistant at the University of Iceland. The job involved teaching consultation sessions and helping students gain a better understanding of the subject."
       }
     }
   ]

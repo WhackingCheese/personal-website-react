@@ -6,16 +6,16 @@
   "jobs": [
     {
       "company": {
-        "en": "Valitor",
-        "is": "Valitor"
+        "en": "Rapyd (Valitor)",
+        "is": "Rapyd (Valitor)"
       },
       "title": {
         "en": "Software Developer",
         "is": "Forritari"
       },
       "description": {
-        "en": "I began work at Valitor shortly after graduation in March 2022 as a Software Developer in the Issuing department. My main project since i began working here has been rewriting the company's Visa and MasterCard authorization systems from COBOL to C#. I have personally been involved in designing, developing, testing and implementing these systems and have gained a lot of knowledge since I began here.",
-        "is": "Ég hóf störf hjá Valitor stuttu eftir útskrift í mars 2022 sem Forritari á kortautgáfusviði. Aðal verkefnið mitt frá því að ég hóf störf hefur verið að vinna að endurskrift Visa og MasterCard heimildakerfa fyrirtækisins úr COBOL í C#. Ég hef persónulega tekið þátt í hönnun, þróun, prófun og innleiðingu þessara kerfa og hef ég því öðlast mikla þekkingu síðan ég byrjaði hér."
+        "en": "Software Developer working on payment card Issuing solutions. Currently developing scalable backend systems for authorizing and clearing Visa and MasterCard card payments.",
+        "is": "Forritari starfandi við þróun á útgáfulausnum greiðslukorta. Vinn að þróun skalanlega bakendakerfa fyrir heimildaveitingu og færsluvísun Visa og MasterCard greiðslukorta."
       },
       "time": [ 2022 ],
       "current": true
@@ -30,7 +30,7 @@
         "is": "Almennur Starfsmaður á Farsóttarhúsi"
       },
       "description": {
-        "en": "Provided care and services to individuals in quarantine and isolation in quarantine hotels who couldn't safely quarantine or isolate themselves at their place of residence and those without permanent residence in the country.",
+        "en": "Provided care and services to individuals in quarantine and isolation in isolation facilities who couldn't safely quarantine or isolate themselves at their place of residence and those without permanent residence in the country.",
         "is": "Sinnti einstaklingum í sóttkví og einangrun á farsóttarhúsum sem gátu ekki sinnt sóttkví eða einangrun í sínu heimahúsi og þeim sem ekki höfðu fasta búsetu á landinu."
       },
       "time": [ 2021, 2022 ],
@@ -76,19 +76,6 @@
         "is": "Vann aðallega við afleysingar þar sem ég tók við hópum þeirra vaktstjóra sem voru veikir eða í fríi. Þegar ekki þurfti afleysingar, sinnti ég öðrum verkefnum fyrir bæjarfélagið"
       },
       "time": [ 2019 ],
-      "current": false
-    },
-    {
-      "company": "Vestfiskur",
-      "title": {
-        "en": "Factory Labourer",
-        "is": "Starfsmaður í Framleiðslu"
-      },
-      "description": {
-        "en": "Worked on manufacturing high-quality dried fish products. Was involved in the entire process; from the receipt of raw materials and products, through production to packaging and preparation of shipments.",
-        "is": "Vann við framleiðslu á hágæða harðfisk, en þar fékk ég tækifæri á að sinna öllum störfum sem fylgdu ferlinu, svo sem móttöku hráefna, framleiðslu, pökkun og undirbúnings sendingina."
-      },
-      "time": [ 2015, 2018 ],
       "current": false
     }
   ]
