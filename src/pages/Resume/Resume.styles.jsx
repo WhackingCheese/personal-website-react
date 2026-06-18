@@ -59,7 +59,7 @@ export const ResumeContainer = styled.div`
     width: 1000px;
 
     @page {
-      size: 8.5in 11.9in;
+      size: 8.5in 12.2in;
     }
   }
 
@@ -120,7 +120,7 @@ export const ResumeSplit = styled.div`
   }
 
   @media print {
-    height: 1400px;
+    height: 1500px;
   }
 `;
 

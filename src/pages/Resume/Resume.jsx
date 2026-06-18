@@ -173,6 +173,9 @@ function Resume() {
                   <TextItem fontWeight={'500'} fontSize={'14px'} margin={'0'}>
                     {t(reference.company)} - {t(reference.position)}
                   </TextItem>
+                  <TextItem fontSize={'12px'} margin={'2px 0 10px 0'} textAlign='justify'>
+                    {t(reference.detail)}
+                  </TextItem>
                   <IconFlexContainer flexDirection={'row'} justifyContent='flex-start'>
                     <Link href={`tel:${reference.phoneNr}`} margin='0 25px 0 0'>
                       <BsTelephone size='20px'/>
@@ -180,12 +183,14 @@ function Resume() {
                         {reference.phoneNr}
                       </TextItem>
                     </Link>
-                    <Link href={`mailto:${reference.email}`}>
-                      <BsEnvelope size='20px'/>
-                      <TextItem margin={'0 0 0 10px'}>
-                        {reference.email}
-                      </TextItem>
-                    </Link>
+                    {reference.email &&
+                      <Link href={`mailto:${reference.email}`}>
+                        <BsEnvelope size='20px'/>
+                        <TextItem margin={'0 0 0 10px'}>
+                          {reference.email}
+                        </TextItem>
+                      </Link>
+                    }
                   </IconFlexContainer>
                 </SegmentContainer>
               );

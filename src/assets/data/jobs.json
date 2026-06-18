@@ -6,16 +6,16 @@
   "jobs": [
     {
       "company": {
-        "en": "Rapyd (Valitor)",
-        "is": "Rapyd (Valitor)"
+        "en": "Rapyd Europe",
+        "is": "Rapyd Europe"
       },
       "title": {
         "en": "Software Developer",
         "is": "Forritari"
       },
       "description": {
-        "en": "Software Developer working on payment card Issuing solutions. Currently developing scalable backend systems for authorizing and clearing Visa and MasterCard card payments.",
-        "is": "Forritari starfandi við þróun á útgáfulausnum greiðslukorta. Vinn að þróun skalanlega bakendakerfa fyrir heimildaveitingu og færsluvísun Visa og MasterCard greiðslukorta."
+        "en": "Software Developer working on payment card Issuing solutions. Developing scalable backend systems for authorizing and clearing Visa and MasterCard card payments. Hired into a massive rewrite of our Visa and MasterCard Authorization systems from COBOL into modern dotnet. Devloped and managed various web services and projects against Visa. Currently mainly working on maintaining our authorization systems and web services, a total department wide system modernization and assisting our customers with any issues or questions that arise regarding any of our systems.",
+        "is": "Forritari starfandi við þróun á útgáfulausnum greiðslukorta. Vinn að þróun skalanlega bakendakerfa fyrir heimildaveitingu og færsluvísun Visa og MasterCard greiðslukorta. Ráðinn í umfangsmikla endurskrift á Visa og MasterCard heimildarkerfunum okkar úr COBOL í nútíma dotnet. Þróaði og stjórnaði ýmsum vefþjónustum og verkefnum gegn Visa. Vinn nú aðallega að viðhaldi heimildarkerfa og vefþjónusta okkar, allsherjar nútímavæðingu kerfa deilarinnar ásamt því að aðstoða viðskiptavini okkar við öll vandamál eða spurningar sem upp koma upp varðandi kerfin okkar."
       },
       "time": [ 2022 ],
       "current": true

@@ -5,52 +5,30 @@
   },
   "references": [
     {
-      "name": "Ólafur Sverrir Kjartansson",
+      "name": "Reynir Bjarni Egilsson",
       "position": {
-        "is": "Aðjunkt",
-        "en": "Adjunkt Lecturer"
+        "is": "Framkvæmdastjóri Trygginga og Tjóna",
+        "en": "Managing Director of Insurance and Claims"
       },
-      "company": {
-        "is": "Hugsmiðjan - Tæknistjóri | Háskóli Íslands",
-        "en": "Hugsmiðjan - Chief Technology Officer | University of Iceland"
-      },
-      "phoneNr": "692-2349",
-      "email": "oli@hugsmidjan.is"
+      "company": "VÍS",
+      "phoneNr": "-removed for privacy-",
+      "detail": {
+        "is": "Fyrrum framkvæmdastjóri kortaútgáfusviðs hjá Valitor og síðar Rapyd. Réð mig inn í núverandi stöðu.",
+        "en": "Former Managing Director of Card Issuing at Valitor and later Rapyd. Hired me for my current position."
+      }
     },
     {
-      "name": "Björn Margeirsson",
+      "name": "Jóhanna Sif Gunnarsdóttir",
       "position": {
-        "is": "Rannsóknarstjóri",
-        "en": "Research Manager"
+        "is": "Hugbúnaðarsérfræðingur",
+        "en": "Software Specialist"
       },
-      "company": "Sæplast Iceland",
-      "phoneNr": "898-4901",
-      "email": "bjorn.margeirsson@saeplast.com"
-    },
-    {
-      "name": "Örvar Þorri Rafnsson",
-      "position": {
-        "is": "Umsjónarmaður Farsóttarhúsa",
-        "en": "Quarantine Hotel Supervisor"
-      },
-      "company": {
-        "is": "Rauði Kross Íslands",
-        "en": "Icelandic Red Cross"
-      },
-      "phoneNr": "888-3070",
-      "email": "orvarthorri@redcross.is"
-    }
-  ],
-  "references_old": [
-    {
-      "name": "Gabríel Daði Vignisson",
-      "position": {
-        "is": "Fjármála og Rekstrarstjóri",
-        "en": "Finance and Operations Manager"
-      },
-      "company": "Íslenska Flatbakan",
-      "phoneNr": "659-1815",
-      "email": "gabriel@flatbakan.is"
+      "company": "Landsvirkjun",
+      "phoneNr": "-removed for privacy-",
+      "detail": {
+        "is": "Fyrrum samstarfskona, vann með mér í kortaútgáfunni hjá Valitor og síðar Rapyd þar til hún skipti um starf.",
+        "en": "Former colleague, worked with me in Card Issuing at Valitor and later Rapyd until she changed jobs."
+      }
     }
   ]
 }
